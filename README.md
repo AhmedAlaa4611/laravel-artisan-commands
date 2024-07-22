@@ -56,20 +56,8 @@ php artisan migrate:fresh --seed
 php artisan make:observer UserObserver --model=User
 ```
 2. To `register an observer`, you may place the ObservedBy attribute on the corresponding model:
-```php
-<?PHP
-
-namespace App\Models;
-
-use App\Observers\UserObserver;
-use Illuminate\Database\Eloquent\Attributes\ObservedBy;
-use Illuminate\Foundation\Auth\User as Authenticatable;
- 
+```sh
 #[ObservedBy([UserObserver::class])]
-class User extends Authenticatable
-{
-    //
-}
 ```
 
 ## Tests

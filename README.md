@@ -3,11 +3,12 @@ Comprehensive documentation on Laravel artisan commands.
 
 ## Table of Contents
 - [Composer](#composer)
+- [Serve](#serve)
 - [Observer](#observer)
 - [Tests](#tests)
 
 ## Composer
-1. Creating new project:
+1. Creating a new project:
 ```sh
 composer create-project laravel/laravel app-name
 ```
@@ -18,6 +19,16 @@ composer clear-cache
 3. Updating composer
 ```sh
 composer self-update
+```
+
+## Serve
+1. Serving the application:
+```sh
+php artisan serve
+```
+2. By default this will serve your application in `localhost:8000` to change the port:
+```sh
+php artisan serve --port=8080
 ```
 
 ## Observer

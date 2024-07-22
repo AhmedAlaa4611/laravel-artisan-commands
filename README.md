@@ -167,7 +167,7 @@ npm install
 ```sh
 npm run dev
 ```
-4. Serving the application and user `URL` to request the page of creating the resource, display a list of it, and more.
+4. Serving the application and use `URL` to request the page of creating the resource, display a list of it, and more.
 - **Note:** There are several other packages for doing the same.
 
 ## Threads

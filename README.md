@@ -16,9 +16,14 @@ Comprehensive documentation on Laravel artisan commands.
 - [Rule](#rule)
 - [Command](#command)
 - [Schedule](#schedule)
+- [Mail](#mail)
+- [Notification](#notification)
+- [Event](#event)
+- [Listener](#listener)
 - [Observer](#observer)
 - [Tests](#tests)
 - [Crud Generator](#crud-generator)
+- [Filament](#filament)
 - [Threads](#threads)
 
 ## Composer
@@ -171,6 +176,30 @@ php artisan schedule:work
 ```
 - This command will run in the foreground and invoke the scheduler until you terminate the command.
 
+## Mail
+1. Creating a mail:
+```sh
+php artisan make:mail FirstMail --markdown=emails.welcome
+```
+
+## Notification
+1. Creating a notification:
+```sh
+php artisan make:notification FirstNotification
+```
+
+## Event
+1. Creating the event:
+```sh
+php artisan make:event UserLoggedOut
+```
+
+## Listener
+1. Creating the listener:
+```sh
+php artisan make:listener SetUserInactive --event=UserLoggedOut
+```
+
 ## Observer
 1. If you are listening for many events on a given model, you may use observers to group all of your listeners into a single class:
 ```sh
@@ -218,6 +247,26 @@ npm run dev
 ```
 4. Serving the application and use `URL` to request the page of creating the resource, display a list of it, and more.
 - **Note:** There are several other packages for doing the same.
+
+## Filament
+1. Creating filament resource:
+```sh
+php artisan make:filament-resource Post --view --generate
+```
+
+## Links
+```sh
+https://laravel.com
+```
+```sh
+https://livewire.laravel.com
+```
+```sh
+https://laracasts.com/series/whats-new-in-laravel-5
+```
+```sh
+https://laracasts.com/series/laravel-8-from-scratch
+```
 
 ## Threads
 1. Example code in cpp `uses threads` to serve your application and open your browser in a specified `IP address and port number`:

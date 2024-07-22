@@ -7,6 +7,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Migration](#migration)
 - [Seeders](#seeders)
 - [Model](#model)
+- [View](#view)
 - [Controller](#controller)
 - [Observer](#observer)
 - [Tests](#tests)
@@ -75,6 +76,16 @@ php artisan make:model Product
 2. Optionally we can create `migration, factory, and seeder` for this model:
 ```sh
 php artisan make:model Product -mfs
+```
+
+## View
+1. Clearing the cached views:
+```sh
+php artisan view:clear
+```
+2. Copiling `blade` views and caching it:
+```sh
+php artisan view:cache
 ```
 
 ## Controller

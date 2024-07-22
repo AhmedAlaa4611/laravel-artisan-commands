@@ -151,7 +151,7 @@ php artisan test --profile
 ```
 
 ## Crud Generator
-1. first create the migration table and run the migration.
+1. First create the migration table and run the migration.
 2. Installing the ibex package.
 ```sh
 composer require ibex/crud-generator --dev

@@ -18,6 +18,7 @@ namespace App\Models;
 
 use App\Observers\UserObserver;
 use Illuminate\Database\Eloquent\Attributes\ObservedBy;
+use Illuminate\Foundation\Auth\User as Authenticatable;
  
 #[ObservedBy([UserObserver::class])]
 class User extends Authenticatable

@@ -5,7 +5,8 @@ Comprehensive documentation on Laravel artisan commands.
 - [Composer](#composer)
 - [Serve](#serve)
 - [Migration](#migration)
-- [Seeders](seeders)
+- [Seeders](#seeders)
+- [Model](#model)
 - [Observer](#observer)
 - [Tests](#tests)
 
@@ -61,13 +62,23 @@ php artisan make:seeder FirstSeeder
 php artisan db:seed
 ```
 
+## Model
+1. Creating the model:
+```sh
+php artisan make:model Product
+```
+2. Optionally we can create `migration, factory, and seeder` for this model:
+```sh
+php artisan make:model Product -mfs
+```
+
 ## Observer
 1. If you are listening for many events on a given model, you may use observers to group all of your listeners into a single class:
 ```sh
 php artisan make:observer UserObserver --model=User
 ```
 2. To `register an observer`, you may place the ObservedBy attribute on the corresponding model:
-```sh
+```php
 #[ObservedBy([UserObserver::class])]
 ```
 

@@ -167,6 +167,8 @@ npm install
 ```sh
 npm run dev
 ```
+5. Serving the application and user `URL` to request the page of creating the resource, display a list of it, and more.
+- **Note:** There are several other packages for doing the same.
 
 ## Threads
 1. Example code in cpp `uses threads` to serve your application and open your browser in a specified `IP address and port number`:

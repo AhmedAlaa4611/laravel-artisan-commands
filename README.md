@@ -151,23 +151,23 @@ php artisan test --profile
 ```
 
 ## Crud Generator
-1. First create the migration table and run the migration.
-2. Installing the ibex package.
+- **Note:** The migration table for the specific resource that you need to make a `CRUD` for it should be created.
+1. Installing the ibex package.
 ```sh
 composer require ibex/crud-generator --dev
 ```
-3. Then make `CRUD operations` for the migration table:
+2. Then make `CRUD operations` for the migration table:
 ```sh
 php artisan make:crud posts
 ```
-4. Run npm commands:
+3. Run npm commands:
 ```sh
 npm install
 ```
 ```sh
 npm run dev
 ```
-5. Serving the application and user `URL` to request the page of creating the resource, display a list of it, and more.
+4. Serving the application and user `URL` to request the page of creating the resource, display a list of it, and more.
 - **Note:** There are several other packages for doing the same.
 
 ## Threads

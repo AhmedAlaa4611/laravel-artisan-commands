@@ -7,15 +7,15 @@ Comprehensive documentation on Laravel artisan commands.
 - [Tests](#tests)
 
 ## Composer
-1. creating new project:
+1. Creating new project:
 ```sh
 composer create-project laravel/laravel app-name
 ```
-2. clearing composer cache
+2. Clearing composer cache
 ```sh
 composer clear-cache
 ```
-3. updating composer
+3. Updating composer
 ```sh
 composer self-update
 ```

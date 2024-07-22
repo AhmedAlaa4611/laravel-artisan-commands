@@ -10,7 +10,7 @@ Comprehensive documentation on Laravel artisan commands.
 ```sh
 php artisan make:observer UserObserver --model=User
 ```
-2. Your fresh observer will look like the following:
+- Your fresh observer will look like the following:
 ```php
 <?php
 
@@ -62,7 +62,7 @@ class UserObserver
 }
 ```
 
-4. To `register an observer`, you may place the ObservedBy attribute on the corresponding model:
+2. To `register an observer`, you may place the ObservedBy attribute on the corresponding model:
 ```php
 <?PHP
 

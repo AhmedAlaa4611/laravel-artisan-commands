@@ -12,6 +12,10 @@ php artisan make:observer UserObserver --model=User
 ```
 2. To `register an observer`, you may place the ObservedBy attribute on the corresponding model:
 ```sh
+<?PHP
+
+namespace App\Models;
+
 use App\Observers\UserObserver;
 use Illuminate\Database\Eloquent\Attributes\ObservedBy;
  

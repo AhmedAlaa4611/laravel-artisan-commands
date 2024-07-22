@@ -83,7 +83,7 @@ php artisan make:model Product -mfs
 ```sh
 php artisan view:clear
 ```
-2. Copiling `blade` views and caching it:
+2. Compiling `blade` views and caching it:
 ```sh
 php artisan view:cache
 ```

@@ -24,6 +24,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Tests](#tests)
 - [Crud Generator](#crud-generator)
 - [Filament](#filament)
+- [Links](#links)
 - [Threads](#threads)
 
 ## Composer

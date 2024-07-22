@@ -2,7 +2,25 @@
 Comprehensive documentation on Laravel artisan commands.
 
 ## Table of Contents
+- [Observer](#observer)
 - [Tests](#tests)
+
+## Observer
+1. If you are listening for many events on a given model, you may use observers to group all of your listeners into a single class:
+```sh
+php artisan make:observer UserObserver --model=User
+```
+2. To `register an observer`, you may place the ObservedBy attribute on the corresponding model:
+```sh
+use App\Observers\UserObserver;
+use Illuminate\Database\Eloquent\Attributes\ObservedBy;
+ 
+#[ObservedBy([UserObserver::class])]
+class User extends Authenticatable
+{
+    //
+}
+```
 
 ## Tests
 1. To create a new test case, use the `make:test` Artisan command. By default, tests will be placed in the `tests/Feature` directory:

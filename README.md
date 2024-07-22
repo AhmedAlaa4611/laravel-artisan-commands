@@ -1,4 +1,4 @@
-## Laravel artisan commands
+## Laravel Artisan Commands
 Comprehensive documentation on Laravel artisan commands.
 
 ## Table of Contents
@@ -12,11 +12,11 @@ Comprehensive documentation on Laravel artisan commands.
 ```sh
 composer create-project laravel/laravel app-name
 ```
-2. Clearing composer cache
+2. Clearing composer cache:
 ```sh
 composer clear-cache
 ```
-3. Updating composer
+3. Updating composer:
 ```sh
 composer self-update
 ```

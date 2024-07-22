@@ -3,6 +3,7 @@ Comprehensive documentation on Laravel artisan commands.
 
 ## Table of Contents
 - [Composer](#composer)
+- [Artisan](#artisan)
 - [Serve](#serve)
 - [Migration](#migration)
 - [Seeders](#seeders)
@@ -28,6 +29,21 @@ composer clear-cache
 3. Updating composer:
 ```sh
 composer self-update
+```
+
+## Artisan
+- Some artisan commands:
+```sh
+php artisan
+```
+```sh
+php artisan -h
+```
+```sh
+php artisan --version
+```
+```sh
+php artisan about
 ```
 
 ## Serve

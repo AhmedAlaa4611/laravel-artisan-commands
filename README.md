@@ -125,11 +125,11 @@ php artisan make:controller FirstController
 ```
 2. Creating a controller with `CRUD` methods:
 ```sh
-php artisan make:controller ProductController --resource
+php artisan make:controller FirstController --resource
 ```
 3. Creating a controller with `CRUD` methods and `Route model binding`:
 ```sh
-php artisan make:controller ProductController --resource --model=Product
+php artisan make:controller FirstController --resource --model=Product
 ```
 
 ## Route

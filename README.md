@@ -150,7 +150,7 @@ php artisan test --profile
 ```
 
 ## Threads
-1. Example code in cpp `uses threads` to serve your application and open the browser in a specified `IP address and port number`:
+1. Example code in cpp `uses threads` to serve your application and open your browser in a specified `IP address and port number`:
 ```cpp
 #include <iostream>
 #include <thread>

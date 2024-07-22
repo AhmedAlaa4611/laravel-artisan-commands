@@ -277,7 +277,7 @@ https://tailwindcss.com
 ```sh
 https://daisyui.com
 ```
-- **Note:** tailwindcss and daisyui are work together
+- **Note:** `tailwindcss.com` and `daisyui.com` are working together.
 ```sh
 https://tailwindui.com
 ```

@@ -11,7 +11,7 @@ Comprehensive documentation on Laravel artisan commands.
 php artisan make:observer UserObserver --model=User
 ```
 2. To `register an observer`, you may place the ObservedBy attribute on the corresponding model:
-```sh
+```php
 <?PHP
 
 namespace App\Models;

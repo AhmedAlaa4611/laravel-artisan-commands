@@ -3,7 +3,8 @@ Comprehensive documentation on Laravel artisan commands.
 
 ## Table of Contents
 - [Composer](#composer)
-- [Artisan](#artisan)    - [Serve](#serve)
+- [Artisan](#artisan)
+- [Serve](#serve)
 - [Migration](#migration)
 - [Seeders](#seeders)
 - [Model](#model)

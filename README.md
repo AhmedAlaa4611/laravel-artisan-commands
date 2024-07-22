@@ -2,8 +2,23 @@
 Comprehensive documentation on Laravel artisan commands.
 
 ## Table of Contents
+- [Composer](#composer)
 - [Observer](#observer)
 - [Tests](#tests)
+
+## Composer
+1. creating new project:
+```sh
+composer create-project laravel/laravel app-name
+```
+2. clearing composer cache
+```sh
+composer clear-cache
+```
+3. updating composer
+```sh
+composer self-update
+```
 
 ## Observer
 1. If you are listening for many events on a given model, you may use observers to group all of your listeners into a single class:

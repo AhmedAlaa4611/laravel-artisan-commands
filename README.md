@@ -5,6 +5,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Composer](#composer)
 - [Serve](#serve)
 - [Migration](#migration)
+- [Seeders](seeders)
 - [Observer](#observer)
 - [Tests](#tests)
 
@@ -48,6 +49,16 @@ php artisan migrate:fresh
 4. To fresh your database and running seeders:
 ```sh
 php artisan migrate:fresh --seed
+```
+
+## Seeders
+1. Creating database seeder:
+```sh
+php artisan make:seeder FirstSeeder
+```
+2. Running the seeder:
+```sh
+php artisan db:seed
 ```
 
 ## Observer

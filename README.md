@@ -37,7 +37,7 @@ composer self-update
 php artisan
 ```
 ```sh
-php artisan -h
+php artisan --help
 ```
 ```sh
 php artisan --version

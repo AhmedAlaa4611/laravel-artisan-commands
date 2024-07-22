@@ -257,10 +257,29 @@ php artisan make:filament-resource Post --view --generate
 
 ## Links
 ```sh
-https://laravel.com
+https://laravel.com/docs/11.x
 ```
 ```sh
 https://livewire.laravel.com
+```
+```sh
+https://filamentphp.com
+```
+```sh
+https://bladewindui.com
+```
+```sh
+https://getbootstrap.com
+```
+```sh
+https://tailwindcss.com
+```
+```sh
+https://daisyui.com
+```
+- **Note:** tailwindcss and daisyui are work together
+```sh
+https://tailwindui.com
 ```
 ```sh
 https://laracasts.com/series/whats-new-in-laravel-5

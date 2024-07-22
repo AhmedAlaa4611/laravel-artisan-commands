@@ -4,6 +4,7 @@ Comprehensive documentation on Laravel artisan commands.
 ## Table of Contents
 - [Composer](#composer)
 - [Serve](#serve)
+- [Migration](#migration)
 - [Observer](#observer)
 - [Tests](#tests)
 
@@ -29,6 +30,24 @@ php artisan serve
 2. By default this will serve your application in `localhost:8000` to change the port:
 ```sh
 php artisan serve --port=8080
+```
+
+## Migration
+1. To migrate the database:
+```sh
+php artisan migrate
+```
+2. To rollback the migration:
+```sh
+php artisan migrate:rollback
+```
+3. To fresh your database:
+```sh
+php artisan migrate:fresh
+```
+4. To fresh your database and running seeders:
+```sh
+php artisan migrate:fresh --seed
 ```
 
 ## Observer

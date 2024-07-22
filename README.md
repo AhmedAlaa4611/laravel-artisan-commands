@@ -69,7 +69,7 @@ php artisan make:test UserTest
 ```sh
 php artisan test
 ```
-4. Some arguments that can be passed to the Artisan test command:
+3. Some arguments that can be passed to the Artisan test command:
 ```sh
 php artisan test --testsuite=Feature --stop-on-failure
 ```

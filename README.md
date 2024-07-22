@@ -7,6 +7,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Migration](#migration)
 - [Seeders](#seeders)
 - [Model](#model)
+- [Controller](#controller)
 - [Observer](#observer)
 - [Tests](#tests)
 
@@ -35,19 +36,23 @@ php artisan serve --port=8080
 ```
 
 ## Migration
-1. To migrate the database:
+1. Creating a migration:
+```sh
+php artisan make:migration create_posts_table
+```
+2. To migrate the database:
 ```sh
 php artisan migrate
 ```
-2. To rollback the migration:
+3. To rollback the migration:
 ```sh
 php artisan migrate:rollback
 ```
-3. To fresh your database:
+4. To fresh your database:
 ```sh
 php artisan migrate:fresh
 ```
-4. To fresh your database and running seeders:
+5. To fresh your database and running seeders:
 ```sh
 php artisan migrate:fresh --seed
 ```
@@ -70,6 +75,20 @@ php artisan make:model Product
 2. Optionally we can create `migration, factory, and seeder` for this model:
 ```sh
 php artisan make:model Product -mfs
+```
+
+## Controller
+1. Creating an empty controller:
+```sh
+php artisan make:controller FirstController
+```
+2. Creating a controller with `CRUD` methods:
+```sh
+php artisan make:controller ProductController --resource
+```
+3. Creating a controller with `CRUD` methods and `Route model binding`:
+```sh
+php artisan make:controller ProductController --resource --model=Product
 ```
 
 ## Observer

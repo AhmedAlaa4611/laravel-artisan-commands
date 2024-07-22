@@ -12,6 +12,10 @@ Comprehensive documentation on Laravel artisan commands.
 - [Controller](#controller)
 - [Route](#route)
 - [Tinker](#tinker)
+- [Component](#component)
+- [Schedule](#schedule)
+- [Rule](#rule)
+- [Command](#command)
 - [Observer](#observer)
 - [Tests](#tests)
 - [Crud Generator](#crud-generator)
@@ -137,6 +141,35 @@ php artisan route:clear
 ```sh
 php artisan tinker
 ```
+
+## Component
+1. How to make a component class:
+```sh
+php artisan make:component FirstComponent
+```
+
+## Rule
+1. Defining a new rule:
+```sh
+php artisan make:rule FirstRule
+```
+
+## Command
+1. To make a command in Laravel:
+```sh
+php artisan make:command FirstCommand
+```
+2. To run your custom command:
+```sh
+php artisan app:first-command
+```
+
+## Schedule
+1. Running the Scheduler Locally:
+```sh
+php artisan schedule:work
+```
+- This command will run in the foreground and invoke the scheduler until you terminate the command.
 
 ## Observer
 1. If you are listening for many events on a given model, you may use observers to group all of your listeners into a single class:

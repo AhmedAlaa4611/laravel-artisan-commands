@@ -13,6 +13,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Tinker](#tinker)
 - [Observer](#observer)
 - [Tests](#tests)
+- [Threads](#threads)
 
 ## Composer
 1. Creating a new project:
@@ -146,4 +147,31 @@ php artisan test --testsuite=Feature --stop-on-failure
 4. The Artisan test runner also includes a convenient mechanism for listing your application's slowest tests:
 ```sh
 php artisan test --profile
+```
+
+## Threads
+1. Simple example code in cpp `uses threads` to serve your application and open the browser in a specified `IP address and port number`:
+```cpp
+#include <iostream>
+#include <thread>
+using namespace std;
+
+void open_app()
+{
+    system("php artisan serve");
+}
+
+void open_browser()
+{
+    system("start http://localhost:8000");
+}
+
+int main()
+{
+    thread thread_open_app = thread(open_app);
+    thread thread_open_browser = thread(open_browser);
+    thread_open_app.join();
+    thread_open_browser.join();
+    return 0;
+}
 ```

@@ -14,6 +14,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Tinker](#tinker)
 - [Component](#component)
 - [Rule](#rule)
+- [Request](#request)
 - [Command](#command)
 - [Schedule](#schedule)
 - [Mail](#mail)
@@ -158,6 +159,15 @@ php artisan make:component FirstComponent
 1. Defining a new rule:
 ```sh
 php artisan make:rule FirstRule
+```
+
+## Request
+1. Defining a new request:
+```sh
+php artisan make:request StoreTaskRequest
+```
+```sh
+php artisan make:request UpdateTaskRequest
 ```
 
 ## Command

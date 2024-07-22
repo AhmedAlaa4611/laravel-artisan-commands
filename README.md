@@ -13,6 +13,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Tinker](#tinker)
 - [Observer](#observer)
 - [Tests](#tests)
+- [Crud Generator](#crud-generator)
 - [Threads](#threads)
 
 ## Composer
@@ -147,6 +148,24 @@ php artisan test --testsuite=Feature --stop-on-failure
 4. The Artisan test runner also includes a convenient mechanism for listing your application's slowest tests:
 ```sh
 php artisan test --profile
+```
+
+## Crud Generator
+1. first create the migration table and run the migration.
+2. Installing the ibex package.
+```sh
+composer require ibex/crud-generator --dev
+```
+3. Then make `CRUD operations` for the migration table:
+```sh
+php artisan make:crud posts
+```
+4. Run npm commands:
+```sh
+npm install
+```
+```sh
+npm run dev
 ```
 
 ## Threads

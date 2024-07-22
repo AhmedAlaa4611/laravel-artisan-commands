@@ -99,11 +99,15 @@ class User extends Authenticatable
 ```sh
 php artisan make:test UserTest
 ```
-2. Some arguments that can be passed to the Artisan test command:
+2. Running tests:
+```sh
+php artisan test
+```
+4. Some arguments that can be passed to the Artisan test command:
 ```sh
 php artisan test --testsuite=Feature --stop-on-failure
 ```
-3. The Artisan test runner also includes a convenient mechanism for listing your application's slowest tests:
+4. The Artisan test runner also includes a convenient mechanism for listing your application's slowest tests:
 ```sh
 php artisan test --profile
 ```

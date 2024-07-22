@@ -9,6 +9,8 @@ Comprehensive documentation on Laravel artisan commands.
 - [Model](#model)
 - [View](#view)
 - [Controller](#controller)
+- [Route](#route)
+- [Tinker](#tinker)
 - [Observer](#observer)
 - [Tests](#tests)
 
@@ -100,6 +102,22 @@ php artisan make:controller ProductController --resource
 3. Creating a controller with `CRUD` methods and `Route model binding`:
 ```sh
 php artisan make:controller ProductController --resource --model=Product
+```
+
+## Route
+1. List all registered routes:
+```sh
+php artisan route:list
+```
+2. Remove the route cache file:
+```sh
+php artisan route:clear
+```
+
+## Tinker
+1. To execute Laravel code from CMD:
+```sh
+php artisan tinker
 ```
 
 ## Observer

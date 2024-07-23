@@ -59,7 +59,7 @@ php artisan about
 ```
 
 ## Serve
-1. Serving the application:
+1. Booting up a server:
 ```sh
 php artisan serve
 ```

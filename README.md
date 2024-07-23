@@ -6,6 +6,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Artisan](#artisan)
 - [Serve](#serve)
 - [Migration](#migration)
+- [Factory](#factory)
 - [Seeders](#seeders)
 - [Model](#model)
 - [View](#view)
@@ -87,6 +88,12 @@ php artisan migrate:fresh
 5. To fresh your database and running seeders:
 ```sh
 php artisan migrate:fresh --seed
+```
+
+## Factory
+1. To create a factory execute the following artisan command:
+```sh
+php artisan make:factory PostFactory
 ```
 
 ## Seeders

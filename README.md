@@ -12,6 +12,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [View](#view)
 - [Controller](#controller)
 - [Route](#route)
+- [Middleware](#middleware)
 - [Tinker](#tinker)
 - [Component](#component)
 - [Rule](#rule)
@@ -148,6 +149,18 @@ php artisan route:list
 2. Remove the route cache file:
 ```sh
 php artisan route:clear
+```
+
+## Middleware
+1. Creating Middleware:
+```sh
+php artisan make:middleware CheckPayment
+```
+2. Registering Middleware in `app/Http/Kernel.php`:
+```php
+protected $routeMiddleware = [
+    'check.payment' => \App\Http\Middleware\CheckPayment::class,
+];
 ```
 
 ## Tinker

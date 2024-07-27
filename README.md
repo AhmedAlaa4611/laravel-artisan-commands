@@ -90,6 +90,10 @@ php artisan migrate:fresh
 ```sh
 php artisan migrate:fresh --seed
 ```
+6. Show the status of each migration:
+```sh
+php artisan migrate:status
+```
 
 ## Factory
 1. To create a factory execute the following artisan command:

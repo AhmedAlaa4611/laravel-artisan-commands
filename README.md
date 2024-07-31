@@ -323,12 +323,12 @@ https://laracasts.com/series/whats-new-in-laravel-5
 ```sh
 https://laracasts.com/series/laravel-8-from-scratch
 ```
-2. 30 Days to Learn Laravel.
+- 30 Days to Learn Laravel.
 ```sh
 https://www.youtube.com/watch?v=1NjOWtQ7S2o&list=PL3VM-unCzF8hy47mt9-chowaHNjfkuEVz
 ```
 ```sh
-coding2go
+coding2go    **YouTube and Website**
 ```
 
 ## Threads

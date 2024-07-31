@@ -323,10 +323,13 @@ https://laracasts.com/series/whats-new-in-laravel-5
 ```sh
 https://laracasts.com/series/laravel-8-from-scratch
 ```
+2. 30 Days to Learn Laravel.
 ```sh
 https://www.youtube.com/watch?v=1NjOWtQ7S2o&list=PL3VM-unCzF8hy47mt9-chowaHNjfkuEVz
 ```
-- 30 Days to Learn Laravel.
+```sh
+coding2go
+```
 
 ## Threads
 1. Example code in cpp `uses threads` to serve your application and open your browser in a specified `IP address and port number`:

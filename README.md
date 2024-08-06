@@ -116,9 +116,9 @@ php artisan db:seed
 ```sh
 php artisan make:model Product
 ```
-2. Optionally we can create `migration, factory, and seeder` for this model:
+2. Optionally we can create `migration, factory, seeder, and resource controller` for this model:
 ```sh
-php artisan make:model Product -mfs
+php artisan make:model Product -mfsr
 ```
 
 ## View

@@ -330,6 +330,10 @@ https://www.youtube.com/watch?v=1NjOWtQ7S2o&list=PL3VM-unCzF8hy47mt9-chowaHNjfku
 ```sh
 coding2go    **YouTube and Website**
 ```
+- fake()
+```sh
+https://fakerphp.org
+```
 
 ## Threads
 1. Example code in cpp `uses threads` to serve your application and open your browser in a specified `IP address and port number`:

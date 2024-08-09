@@ -150,7 +150,11 @@ php artisan make:controller FirstController --resource --model=Post
 ```sh
 php artisan route:list
 ```
-2. Remove the route cache file:
+2. List all registered routes without vendor ones:
+```sh
+php artisan route:list --except-vendor
+```
+3. Remove the route cache file:
 ```sh
 php artisan route:clear
 ```

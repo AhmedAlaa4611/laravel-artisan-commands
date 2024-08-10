@@ -8,6 +8,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Migration](#migration)
 - [Factory](#factory)
 - [Seeders](#seeders)
+- [Database](#database)
 - [Model](#model)
 - [View](#view)
 - [Controller](#controller)
@@ -109,6 +110,12 @@ php artisan make:seeder FirstSeeder
 2. Running the seeder:
 ```sh
 php artisan db:seed
+```
+
+## Database
+1. To show the structure of a specific table.
+```sh
+php artisan db:table users
 ```
 
 ## Model

@@ -101,6 +101,10 @@ php artisan migrate:status
 ```sh
 php artisan make:factory PostFactory
 ```
+2. Laravel faker link:
+```sh
+https://fakerphp.org
+```
 
 ## Seeders
 1. Creating database seeder:

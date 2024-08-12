@@ -14,6 +14,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Controller](#controller)
 - [Route](#route)
 - [Middleware](#middleware)
+- [Policy](#policy)
 - [Tinker](#tinker)
 - [Component](#component)
 - [Rule](#rule)
@@ -182,6 +183,12 @@ withMiddleware(function (Middleware $middleware) {
         'check.payment' => \App\Http\Middleware\CheckPayment::class,
     ]);
 })
+```
+
+## Policy
+1. Creating Policy:
+```sh
+php artisan make:policy PostPolicy --model=Post
 ```
 
 ## Tinker

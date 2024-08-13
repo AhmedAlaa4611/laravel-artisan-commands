@@ -31,6 +31,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Filament](#filament)
 - [Links](#links)
 - [Threads](#threads)
+- [Bat](#bat)
 
 ## Composer
 1. Creating a new project:
@@ -358,7 +359,7 @@ https://fakerphp.org
 ```
 
 ## Threads
-1. Example code in cpp `uses threads` to serve your application and open your browser in a specified `IP address and port number`:
+1. Example code in cpp `uses threads` to booting up a server to the application and open your browser in a specified `IP address and port number`:
 ```cpp
 #include <iostream>
 #include <thread>
@@ -382,4 +383,12 @@ int main()
     thread_open_browser.join();
     return 0;
 }
+```
+
+## Bat
+1. Example code in bat `uses multiple cmd windows` to booting up a server to the application
+```bat
+@echo off
+start "Starting the el araby center site . . ." cmd /c "php artisan serve"
+start "" cmd /c "start http://127.0.0.1:8000"
 ```

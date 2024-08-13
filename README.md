@@ -386,7 +386,7 @@ int main()
 ```
 
 ## Bat
-1. Example code in bat `uses multiple cmd windows` to booting up a server to the application
+1. Example code in bat `uses multiple cmd windows` to booting up a server to the application:
 ```bat
 @echo off
 start "Starting the el araby center site . . ." cmd /c "php artisan serve"

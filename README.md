@@ -350,6 +350,10 @@ https://laracasts.com/series/laravel-8-from-scratch
 ```sh
 https://www.youtube.com/watch?v=1NjOWtQ7S2o&list=PL3VM-unCzF8hy47mt9-chowaHNjfkuEVz
 ```
+- Fun with openai and Laravel
+```sh
+https://laracasts.com/series/fun-with-openai-and-laravel
+```
 ```sh
 coding2go    **YouTube and Website**
 ```

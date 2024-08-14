@@ -16,6 +16,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Middleware](#middleware)
 - [Policy](#policy)
 - [Tinker](#tinker)
+- [Key Generate](#key-generate)
 - [Component](#component)
 - [Rule](#rule)
 - [Request](#request)
@@ -196,6 +197,11 @@ php artisan make:policy PostPolicy --model=Post
 1. To execute Laravel code from CMD:
 ```sh
 php artisan tinker
+```
+
+## Key Generate
+```sh
+php artisan key:generate
 ```
 
 ## Component

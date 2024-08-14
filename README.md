@@ -200,6 +200,7 @@ php artisan tinker
 ```
 
 ## Key Generate
+1. Generating a new key on deployment:
 ```sh
 php artisan key:generate
 ```

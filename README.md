@@ -134,6 +134,10 @@ php artisan make:model Product
 ```sh
 php artisan make:model Product -mfsr
 ```
+3. Indicates if the generated model should be a custom intermediate table model `pivot table`:
+```sh
+php artisan make:model UserProduct -mp
+```
 
 ## View
 1. Clearing the cached views:

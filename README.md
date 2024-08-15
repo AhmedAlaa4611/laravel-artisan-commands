@@ -138,6 +138,10 @@ php artisan make:model Product -mfsr
 ```sh
 php artisan make:model UserProduct -mp
 ```
+4. Finally, we can create them all including the `form request class`:
+```sh
+php artisan make:model Post --all
+```
 
 ## View
 1. Clearing the cached views:

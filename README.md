@@ -33,6 +33,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Links](#links)
 - [Threads](#threads)
 - [Bat](#bat)
+- [Set Up](#set-up)
 
 ## Composer
 1. Creating a new project:
@@ -410,4 +411,28 @@ int main()
 @echo off
 start "Starting the el araby center site . . ." cmd /c "php artisan serve"
 start "" cmd /c "start http://127.0.0.1:8000"
+```
+
+## Set Up
+- Set up a Laravel project that you've downloaded from GitHub:
+1. Install composer dependencies:
+```sh
+composer install
+```
+2. Generate the application key:
+```sh
+php artisan key:generate
+```
+3. Install NPM dependencies (optional):
+```sh
+npm install
+npm run dev
+```
+4. Run migrations:
+```sh
+php artisan migrate
+```
+5. Serve the application:
+```sh
+php artisan serve
 ```

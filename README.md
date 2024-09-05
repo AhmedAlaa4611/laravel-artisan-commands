@@ -34,6 +34,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Threads](#threads)
 - [Bat](#bat)
 - [Set Up](#set-up)
+- [Livewire](#livewire)
 
 ## Composer
 1. Creating a new project:
@@ -435,4 +436,9 @@ php artisan migrate
 5. Serve the application:
 ```sh
 php artisan serve
+```
+
+## Livewire
+```sh
+https://bootcamp.laravel.com/livewire/installation
 ```

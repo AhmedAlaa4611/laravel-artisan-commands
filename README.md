@@ -35,6 +35,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Bat](#bat)
 - [Set Up](#set-up)
 - [Livewire](#livewire)
+- [Running Pint](#running-pint)
 
 ## Composer
 1. Creating a new project:
@@ -441,4 +442,10 @@ php artisan serve
 ## Livewire
 ```sh
 https://bootcamp.laravel.com/livewire/installation
+```
+
+## Running Pint
+1. You can instruct Pint to fix code style issues:
+```sh
+./vendor/bin/pint
 ```

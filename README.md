@@ -42,19 +42,19 @@ Comprehensive documentation on Laravel artisan commands.
 ```sh
 composer create-project laravel/laravel app-name
 ```
-2. Clearing composer cache:
-```sh
-composer clear-cache
-```
-3. Find outdated composer dependencies:
+2. Find outdated composer dependencies:
 ```sh
 composer outdated
 ```
-4. Updating outdated composer dependencies:
+3. Updating outdated composer dependencies:
 ```sh
 composer update
 ```
 - Patch or Minor Release - Major Release, Direct Dependencies - Transitive Dependencies.
+4. Clearing composer cache:
+```sh
+composer clear-cache
+```
 5. Updates Composer itself:
 ```sh
 composer self-update

@@ -46,9 +46,13 @@ composer create-project laravel/laravel app-name
 ```sh
 composer clear-cache
 ```
-3. Updating composer:
+3. Find outdated composer dependencies:
 ```sh
-composer self-update
+composer outdated
+```
+4. Updating outdated composer dependencies:
+```sh
+composer update
 ```
 
 ## Artisan

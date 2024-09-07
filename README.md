@@ -54,6 +54,7 @@ composer outdated
 ```sh
 composer update
 ```
+- patch or minor release - major release - direct dependencies - transitive dependencies.
 
 ## Artisan
 - Some artisan commands:

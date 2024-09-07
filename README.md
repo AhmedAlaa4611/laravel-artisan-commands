@@ -50,12 +50,16 @@ composer outdated
 ```sh
 composer update
 ```
+4. Display all the dependencies in your project:
+```sh
+composer outdated --all
+```
 - Patch or Minor Release - Major Release, Direct Dependencies - Transitive Dependencies.
-4. Clearing composer cache:
+5. Clearing composer cache:
 ```sh
 composer clear-cache
 ```
-5. Updates Composer itself:
+6. Updates Composer itself:
 ```sh
 composer self-update
 ```

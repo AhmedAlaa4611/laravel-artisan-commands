@@ -55,6 +55,10 @@ composer outdated
 composer update
 ```
 - Patch or Minor Release - Major Release, Direct Dependencies - Transitive Dependencies.
+5. Updates Composer itself:
+```sh
+composer self-update
+```
 
 ## Artisan
 - Some artisan commands:

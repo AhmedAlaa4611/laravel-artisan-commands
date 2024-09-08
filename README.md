@@ -468,3 +468,5 @@ https://bootcamp.laravel.com/livewire/installation
 - Major Release.
 - Direct Dependencies.
 - Transitive Dependencies.
+- Breeze, Jetstream, and Sanctum are Laravel packages used for authentication.
+- Laravel Shift is used to upgrade Laravel applications.

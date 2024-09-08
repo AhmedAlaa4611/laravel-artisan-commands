@@ -469,5 +469,5 @@ https://bootcamp.laravel.com/livewire/installation
 - Direct Dependencies.
 - Transitive Dependencies.
 - Breeze, Jetstream, and Sanctum are Laravel packages used for authentication.
-- Choose Sanctum if you're building an API or SPA, Breeze if you need simple auth scaffolding, and Jetstream if you want a robust application with features like teams and two-factor authentication.
+- Choose Breeze if you need simple auth scaffolding, Jetstream if you want a robust application with features like teams and two-factor authentication, and Sanctum if you're building an API or single-page application.
 - Laravel Shift is used to upgrade Laravel applications.

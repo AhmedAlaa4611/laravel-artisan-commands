@@ -471,4 +471,4 @@ https://bootcamp.laravel.com/livewire/installation
 - Breeze, Jetstream, and Sanctum are Laravel packages used for authentication.
 - Choose Breeze if you need simple auth scaffolding, Jetstream if you want a robust application with features like teams and two-factor authentication, and Sanctum if you're building an API or single-page application.
 - Laravel Shift is used to upgrade Laravel applications.
-- Laravel Sail is a lightweight command-line interface for Laravel that provides a simple and convenient way to set up a local development environment using Docker.
+- Laravel Sail is a lightweight command-line interface for Laravel that provides a simple and convenient way to set up a local development environment using Docker, Removing the "it works on my machine" problem.

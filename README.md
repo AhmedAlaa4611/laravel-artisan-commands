@@ -36,6 +36,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Set Up](#set-up)
 - [Livewire](#livewire)
 - [Running Pint](#running-pint)
+- [Terms](#terms)
 
 ## Composer
 1. Creating a new project:
@@ -54,7 +55,6 @@ composer update
 ```sh
 composer outdated --all
 ```
-- Patch or Minor Release - Major Release, Direct Dependencies - Transitive Dependencies.
 5. Clearing composer cache:
 ```sh
 composer clear-cache
@@ -462,3 +462,9 @@ https://bootcamp.laravel.com/livewire/installation
 ```sh
 ./vendor/bin/pint
 ```
+
+## Terms
+- Patch or Minor Release.
+- Major Release.
+- Direct Dependencies.
+- Transitive Dependencies.

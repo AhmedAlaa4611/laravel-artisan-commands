@@ -474,3 +474,5 @@ https://bootcamp.laravel.com/livewire/installation
 - Laravel Sail is a lightweight command-line interface for Laravel that provides a simple and convenient way to set up a local development environment using Docker, Removing the "it works on my machine" problem.
 - MariaDB was Created by the original developers of MySQL as a fork of MySQL after the Oracle acquisition to ensure it remains free and open source. The MariaDB Foundation maintains MariaDB.
 - SQL is a set of commands for interacting with relational database management systems (RDBMS).
+- A symmetric key cryptosystem uses the same key to encrypt and decrypt.
+- A public key cryptosystem uses a public key to encrypt and a private key to decrypt.

@@ -473,7 +473,7 @@ https://bootcamp.laravel.com/livewire/installation
 - Laravel Shift is used to upgrade Laravel applications.
 - Laravel Cashier and Laravel Spark are used to handle subscriptions and billings.
 - Laravel Sail is a lightweight command-line interface for Laravel that provides a simple and convenient way to set up a local development environment using Docker, Removing the "it works on my machine" problem.
-- Passport, OAuth2, and Sanctum are for APIs.
+- Passport, OAuth2, and Sanctum are used to build APIs.
 - MariaDB was Created by the original developers of MySQL as a fork of MySQL after the Oracle acquisition to ensure it remains free and open source. The MariaDB Foundation maintains MariaDB.
 - SQL is a set of commands for interacting with relational database management systems (RDBMS).
 - A key is used to configure a cryptosystem.

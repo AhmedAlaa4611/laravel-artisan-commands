@@ -468,8 +468,8 @@ https://bootcamp.laravel.com/livewire/installation
 - Major Release.
 - Direct Dependencies.
 - Transitive Dependencies.
-- Breeze, Jetstream, and Sanctum are Laravel packages used for authentication.
-- Choose Breeze if you need simple auth scaffolding, Jetstream if you want a robust application with features like teams and two-factor authentication, and Sanctum if you're building an API or single-page application.
+- Breeze and Jetstream are Laravel packages used for authentication.
+- Choose Breeze if you need simple auth scaffolding, and Jetstream if you want a robust application with features like teams and two-factor authentication.
 - Laravel Shift is used to upgrade Laravel applications.
 - Laravel Cashier and Laravel Spark are used to handle subscriptions and billings.
 - Laravel Sail is a lightweight command-line interface for Laravel that provides a simple and convenient way to set up a local development environment using Docker, Removing the "it works on my machine" problem.

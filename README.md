@@ -478,3 +478,4 @@ https://bootcamp.laravel.com/livewire/installation
 - A symmetric key cryptosystem uses the same key to encrypt and decrypt.
 - A public key `asymmetric key` cryptosystem uses a public key to encrypt and a private key to decrypt.
 - Laracon stands for Laravel conference.
+- Mocking allows you to simulate database behavior and test your logic in isolation.

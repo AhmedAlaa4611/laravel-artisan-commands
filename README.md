@@ -34,7 +34,6 @@ Comprehensive documentation on Laravel artisan commands.
 - [Threads](#threads)
 - [Bat](#bat)
 - [Set Up](#set-up)
-- [Livewire](#livewire)
 - [Running Pint](#running-pint)
 - [Terms](#terms)
 
@@ -353,6 +352,12 @@ https://laravel.com/docs/11.x
 https://livewire.laravel.com
 ```
 ```sh
+https://bootcamp.laravel.com/livewire/installation
+```
+```sh
+https://blog.laravel.com
+```
+```sh
 https://filamentphp.com
 ```
 ```sh
@@ -377,11 +382,11 @@ https://laracasts.com/series/whats-new-in-laravel-5
 ```sh
 https://laracasts.com/series/laravel-8-from-scratch
 ```
-- 30 Days to Learn Laravel.
+- Learn Laravel in 30 Days.
 ```sh
 https://www.youtube.com/watch?v=1NjOWtQ7S2o&list=PL3VM-unCzF8hy47mt9-chowaHNjfkuEVz
 ```
-- Fun with openai and Laravel
+- Fun with Openai and Laravel
 ```sh
 https://laracasts.com/series/fun-with-openai-and-laravel
 ```
@@ -450,11 +455,6 @@ php artisan migrate
 5. Serve the application:
 ```sh
 php artisan serve
-```
-
-## Livewire
-```sh
-https://bootcamp.laravel.com/livewire/installation
 ```
 
 ## Running Pint

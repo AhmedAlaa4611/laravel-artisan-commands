@@ -476,6 +476,7 @@ https://bootcamp.laravel.com/livewire/installation
 - Passport, OAuth2, and Sanctum are used to build APIs.
 - Laravel Telescope and Laravel Debugbar are powerful tools for debugging and monitoring Laravel applications.
 - Laravel Dusk is a browser automation tool for testing.
+- Vapor and Forge are for deployment, but they require a subscription to use.
 - MariaDB was Created by the original developers of MySQL as a fork of MySQL after the Oracle acquisition to ensure it remains free and open source. The MariaDB Foundation maintains MariaDB.
 - SQL is a set of commands for interacting with relational database management systems (RDBMS).
 - A key is used to configure a cryptosystem.

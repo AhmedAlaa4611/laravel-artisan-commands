@@ -474,7 +474,7 @@ php artisan serve
 - Laravel Cashier and Laravel Spark are used to handle subscriptions and billings.
 - Laravel Sail is a lightweight command-line interface for Laravel that provides a simple and convenient way to set up a local development environment using Docker, Removing the "it works on my machine" problem.
 - Passport, OAuth2, and Sanctum are used to build APIs.
-- Laravel Telescope and Laravel Debugbar are powerful tools for debugging and monitoring Laravel applications.
+- Laravel Telescope, Pulse, and Laravel Debugbar are powerful tools for debugging and monitoring Laravel applications.
 - Laravel Dusk is a browser automation tool for testing.
 - Vapor and Forge are for deployment, but they require a subscription to use.
 - MariaDB was Created by the original developers of MySQL as a fork of MySQL after the Oracle acquisition to ensure it remains free and open source. The MariaDB Foundation maintains MariaDB.

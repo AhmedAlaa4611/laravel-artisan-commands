@@ -474,7 +474,7 @@ php artisan serve
 - Laravel Shift is used to upgrade Laravel applications.
 - Laravel Cashier and Laravel Spark are used to handle subscriptions and billings.
 - Laravel Sail is a lightweight command-line interface for Laravel that provides a simple and convenient way to set up a local development environment using Docker, Removing the "it works on my machine" problem.
-- Passport, OAuth2, and Sanctum are used to build APIs.
+- Passport, Socialite, OAuth2, and Sanctum are used to build APIs.
 - Laravel Telescope, Pulse, and Debugbar are powerful tools for debugging and monitoring Laravel applications.
 - Laravel Dusk is a browser automation tool for testing.
 - Redis is an in-memory data structure used for Caching, Session Store, and Queue Management.

@@ -492,5 +492,5 @@ php artisan serve
    - Manages the desired packages and version ranges.
    - Manually edited by developers.
 2. composer.lock:
-  - Manages the exact versions of the installed packages.
-  - Automatically generated and updated by Composer when installing or updating dependencies.
+   - Manages the exact versions of the installed packages.
+   - Automatically generated and updated by composer when installing or updating dependencies.

@@ -476,11 +476,12 @@ php artisan serve
 - Passport, OAuth2, and Sanctum are used to build APIs.
 - Laravel Telescope, Pulse, and Debugbar are powerful tools for debugging and monitoring Laravel applications.
 - Laravel Dusk is a browser automation tool for testing.
+- Redis is an in-memory data structure used for Caching, Session Store, and Queue Management.
 - Vapor and Forge are for deployment, but they require a subscription to use.
+- Laracon stands for Laravel conference.
 - MariaDB was Created by the original developers of MySQL as a fork of MySQL after the Oracle acquisition to ensure it remains free and open source. The MariaDB Foundation maintains MariaDB.
 - SQL is a set of commands for interacting with relational database management systems (RDBMS).
 - A key is used to configure a cryptosystem.
 - A symmetric key cryptosystem uses the same key to encrypt and decrypt.
 - A public key `asymmetric key` cryptosystem uses a public key to encrypt and a private key to decrypt.
-- Laracon stands for Laravel conference.
 - Mocking allows you to simulate database behavior and test your logic in isolation.

@@ -36,7 +36,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Set Up](#set-up)
 - [Running Pint](#running-pint)
 - [Terms](#terms)
-- [Differences Between composer.json and composer.lock Files](#differences-between-composer.json-and-composer.lock-files)
+- [Differences Between Composer Files](#differences-between-composer-files)
 
 ## Composer
 1. Creating a new project:

@@ -36,6 +36,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Set Up](#set-up)
 - [Running Pint](#running-pint)
 - [Terms](#terms)
+- [Differences Between composer.json and composer.lock Files](#differences-between-composer.json-and-composer.lock-files)
 
 ## Composer
 1. Creating a new project:
@@ -485,3 +486,11 @@ php artisan serve
 - A symmetric key cryptosystem uses the same key to encrypt and decrypt.
 - A public key `asymmetric key` cryptosystem uses a public key to encrypt and a private key to decrypt.
 - Mocking allows you to simulate database behavior and test your logic in isolation.
+
+## Differences Between composer.json and composer.lock Files
+1. composer.json:
+   - Manages the desired packages and version ranges.
+   - Manually edited by developers.
+2. composer.lock:
+  - Manages the exact versions of the installed packages.
+  - Automatically generated and updated by Composer when installing or updating dependencies.

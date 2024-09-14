@@ -487,7 +487,7 @@ php artisan serve
 - A public key `asymmetric key` cryptosystem uses a public key to encrypt and a private key to decrypt.
 - Mocking allows you to simulate database behavior and test your logic in isolation.
 
-## Differences Between composer.json and composer.lock Files
+## Differences Between Composer Files
 1. composer.json:
    - Manages the desired packages and version ranges.
    - Manually edited by developers.

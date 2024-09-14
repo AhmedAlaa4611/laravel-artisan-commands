@@ -465,8 +465,8 @@ php artisan serve
 ```
 
 ## Terms
-- Patch or Minor Release.
-- Major Release.
+- Major:Minor:Patch Releases -> 1.2.3
+- Alpha and Beta versions.
 - Direct Dependencies.
 - Transitive Dependencies.
 - Breeze and Jetstream are Laravel packages used for authentication.

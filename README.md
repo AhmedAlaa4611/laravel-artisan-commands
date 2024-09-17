@@ -318,7 +318,7 @@ php artisan test --filter YouTubeManagerTest
 ```sh
 php artisan test --testsuite=Feature --stop-on-failure
 ```
-5. Listing the application's slowest tests:
+5. Listing the application's top 10 slowest tests:
 ```sh
 php artisan test --profile
 ```

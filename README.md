@@ -310,11 +310,15 @@ php artisan make:test UserTest
 ```sh
 php artisan test
 ```
-3. Some arguments that can be passed to the Artisan test command:
+3. To run a specific test class:
+```sh
+php artisan test --filter YouTubeManagerTest
+```
+4. Some arguments that can be passed to the Artisan test command:
 ```sh
 php artisan test --testsuite=Feature --stop-on-failure
 ```
-4. The Artisan test runner also includes a convenient mechanism for listing your application's slowest tests:
+5. The Artisan test runner also includes a convenient mechanism for listing your application's slowest tests:
 ```sh
 php artisan test --profile
 ```

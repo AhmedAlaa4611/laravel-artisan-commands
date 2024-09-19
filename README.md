@@ -64,7 +64,7 @@ composer clear-cache
 ```sh
 composer self-update
 ```
-7. Auto load:
+7. Autoload:
 ```sh
 composer dump-autoload
 ```

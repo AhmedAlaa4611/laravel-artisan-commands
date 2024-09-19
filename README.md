@@ -37,6 +37,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Running Pint](#running-pint)
 - [Terms](#terms)
 - [Differences Between Composer Files](#differences-between-composer-files)
+- [Http Directory](#http-directory)
 
 ## Composer
 1. Creating a new project:
@@ -501,3 +502,8 @@ php artisan serve
 2. composer.lock:
    - Manages the exact versions of the installed packages.
    - Automatically generated and updated by composer when installing or updating dependencies.
+
+## Http Directory
+- Controllers: Handle incoming HTTP requests.
+- Middleware: Filter incoming HTTP requests.
+- Requests: Validate incoming HTTP requests.

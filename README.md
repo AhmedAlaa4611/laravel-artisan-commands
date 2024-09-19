@@ -64,6 +64,10 @@ composer clear-cache
 ```sh
 composer self-update
 ```
+7. Auto load:
+```sh
+composer dump-autoload
+```
 
 ## Artisan
 - Some artisan commands:

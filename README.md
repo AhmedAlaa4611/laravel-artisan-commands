@@ -504,6 +504,6 @@ php artisan serve
    - Automatically generated and updated by composer when installing or updating dependencies.
 
 ## Http Directory
-- Controllers: Handle incoming HTTP requests.
-- Middleware: Filter incoming HTTP requests.
-- Requests: Validate incoming HTTP requests.
+- **Controllers:** Handle incoming HTTP requests.
+- **Middleware:** Filter incoming HTTP requests.
+- **Requests:** Validate incoming HTTP requests.

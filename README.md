@@ -368,6 +368,9 @@ https://bootcamp.laravel.com/livewire/installation
 https://laravel-notification-channels.com/telegram
 ```
 ```sh
+https://laravel-news.com
+```
+```sh
 https://blog.laravel.com
 ```
 ```sh

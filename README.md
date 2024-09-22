@@ -504,6 +504,7 @@ php artisan serve
 - A symmetric key cryptosystem uses the same key to encrypt and decrypt.
 - A public key `asymmetric key` cryptosystem uses a public key to encrypt and a private key to decrypt.
 - Identical plaintexts yield different ciphertexts.
+- AES-256-CBC: Advanced Encryption Standard 256 Cipher Block Chaining
 - Mocking allows you to simulate database behavior and test your logic in isolation.
 
 ## Differences Between Composer Files

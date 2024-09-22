@@ -496,7 +496,7 @@ php artisan serve
 - Laravel Telescope, Pulse, and Debugbar are powerful tools for debugging and monitoring Laravel applications.
 - Laravel Dusk is a browser automation tool for testing.
 - Redis is an in-memory data structure used for Caching, Session Store, and Queue Management.
-- Vapor and Forge are for deployment, but they require a subscription to use.
+- Vapor, Forge, and Envoyer are for deployment, but they require a subscription to use.
 - Laracon stands for Laravel conference.
 - MariaDB was Created by the original developers of MySQL as a fork of MySQL after the Oracle acquisition to ensure it remains free and open source. The MariaDB Foundation maintains MariaDB.
 - SQL is a set of commands for interacting with relational database management systems (RDBMS).

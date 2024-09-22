@@ -374,6 +374,9 @@ https://laravel-news.com
 https://blog.laravel.com
 ```
 ```sh
+https://developer.mozilla.org/en-US/docs/Web/HTTP
+```
+```sh
 https://filamentphp.com
 ```
 ```sh

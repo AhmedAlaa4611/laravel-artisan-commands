@@ -34,7 +34,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Threads](#threads)
 - [Bat](#bat)
 - [Set Up](#set-up)
-- [Running Pint](#running-pint)
+- [Static Analysis](#static-analysis)
 - [Terms](#terms)
 - [Differences Between Composer Files](#differences-between-composer-files)
 - [Http Directory](#http-directory)
@@ -473,7 +473,7 @@ php artisan migrate
 php artisan serve
 ```
 
-## Running Pint
+## Static Analysis
 1. You can instruct Pint to fix code style issues:
 ```sh
 ./vendor/bin/pint

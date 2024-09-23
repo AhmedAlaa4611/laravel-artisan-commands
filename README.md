@@ -496,6 +496,7 @@ php artisan serve
 - Laravel Telescope, Pulse, and Debugbar are powerful tools for debugging and monitoring Laravel applications.
 - Laravel Dusk is a browser automation tool for testing.
 - Termwind allows you to build command-line interfaces (CLI) using web-like styling.
+- Bootstrap is a self-starting process.
 - Redis is an in-memory data structure used for Caching, Session Store, and Queue Management.
 - Vapor, Forge, and Envoyer are for deployment, but they require a subscription to use.
 - Laracon stands for Laravel conference.

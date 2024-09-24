@@ -29,7 +29,6 @@ Comprehensive documentation on Laravel artisan commands.
 - [Observer](#observer)
 - [Tests](#tests)
 - [Crud Generator](#crud-generator)
-- [Filament](#filament)
 - [Links](#links)
 - [Threads](#threads)
 - [Bat](#bat)
@@ -348,12 +347,6 @@ npm run dev
 4. Serving the application and use `URL` to request the page of creating the resource, display a list of it, and more.
 - **Note:** There are several other packages for doing the same.
 
-## Filament
-1. Creating filament resource:
-```sh
-php artisan make:filament-resource Post --view --generate
-```
-
 ## Links
 ```sh
 https://laravel.com/docs/11.x
@@ -377,7 +370,7 @@ https://blog.laravel.com
 https://developer.mozilla.org/en-US/docs/Web/HTTP
 ```
 ```sh
-https://filamentphp.com
+https://phpunit.de/index.html
 ```
 ```sh
 https://bladewindui.com

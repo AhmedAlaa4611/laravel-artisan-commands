@@ -491,7 +491,7 @@ php artisan serve
 - Termwind allows you to build command-line interfaces (CLI) using web-like styling.
 - Bootstrap is a self-starting process.
 - Redis is an in-memory data structure used for Caching, Session Store, and Queue Management.
-- Vapor, Forge, and Envoyer are for deployment, but they require a subscription to use.
+- Forge, Vapor, and Envoyer are for deployment, but they require a subscription to use.
 - Laracon stands for Laravel conference.
 - MariaDB was Created by the original developers of MySQL as a fork of MySQL after the Oracle acquisition to ensure it remains free and open source. The MariaDB Foundation maintains MariaDB.
 - SQL is a set of commands for interacting with relational database management systems (RDBMS).

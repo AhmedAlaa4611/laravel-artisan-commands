@@ -493,6 +493,9 @@ php artisan serve
 - Redis is an in-memory data structure used for Caching, Session Store, and Queue Management.
 - Forge, Vapor, and Envoyer are for deployment, but they require a subscription to use.
 - Laracon stands for Laravel conference.
+- SSH: Secure Shell.
+- SSL: Secure Sockets Layer.
+- Inertia is an adapter for your frontend JavaScript frameworks.
 - MariaDB was Created by the original developers of MySQL as a fork of MySQL after the Oracle acquisition to ensure it remains free and open source. The MariaDB Foundation maintains MariaDB.
 - SQL is a set of commands for interacting with relational database management systems (RDBMS).
 - A key is used to configure a cryptosystem.

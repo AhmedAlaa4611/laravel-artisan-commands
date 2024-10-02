@@ -37,6 +37,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Terms](#terms)
 - [Differences Between Composer Files](#differences-between-composer-files)
 - [Http Directory](#http-directory)
+- [Differences Between Mocks and Stubs](#differences-between-mocks-and-stubs)
 
 ## Composer
 1. Creating a new project:

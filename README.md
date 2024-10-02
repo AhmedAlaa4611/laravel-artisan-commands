@@ -502,8 +502,7 @@ php artisan serve
 - A symmetric key cryptosystem uses the same key to encrypt and decrypt.
 - A public key `asymmetric key` cryptosystem uses a public key to encrypt and a private key to decrypt.
 - Identical plaintexts yield different ciphertexts.
-- AES-256-CBC: Advanced Encryption Standard 256 Cipher Block Chaining
-- Mocking allows you to simulate database behavior and test your logic in isolation.
+- AES-256-CBC: Advanced Encryption Standard 256 Cipher Block Chaining.
 
 ## Differences Between Composer Files
 1. composer.json:
@@ -517,3 +516,8 @@ php artisan serve
 - **Controllers:** Handle incoming HTTP requests.
 - **Middleware:** Filter incoming HTTP requests.
 - **Requests:** Validate incoming HTTP requests.
+
+## Differences Between Mocks and Stubs
+- Mocking allows you to simulate database behavior.
+- Stubs return pre-defined data when called.
+- Both of them are used to test your logic in isolation.

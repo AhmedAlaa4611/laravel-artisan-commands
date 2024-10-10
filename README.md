@@ -197,7 +197,11 @@ php artisan route:list
 ```sh
 php artisan route:list --except-vendor
 ```
-3. Remove the route cache file:
+3. To generate a route cache:
+```sh
+php artisan route:cache
+```
+4. Remove the route cache file:
 ```sh
 php artisan route:clear
 ```

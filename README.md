@@ -207,14 +207,6 @@ php artisan route:clear
 ```sh
 php artisan make:middleware CheckPayment
 ```
-2. Registering Middleware in `bootstrap/app.php`:
-```php
-withMiddleware(function (Middleware $middleware) {
-    $middleware->alias([
-        'check.payment' => \App\Http\Middleware\CheckPayment::class,
-    ]);
-})
-```
 
 ## Policy
 1. Creating Policy:

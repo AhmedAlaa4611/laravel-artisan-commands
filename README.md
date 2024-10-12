@@ -187,6 +187,10 @@ php artisan make:controller FirstController --resource
 ```sh
 php artisan make:controller FirstController --resource --model=Post
 ```
+4. Creating a controller with `CRUD` methods, `Route model binding`, and `Form Requests`:
+```sh
+php artisan make:controller FirstController --resource --model=Post --resources
+```
 
 ## Route
 1. List all registered routes:

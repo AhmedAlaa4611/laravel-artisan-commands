@@ -533,3 +533,5 @@ php artisan serve
     - Organizations use proxy servers to restrict access to certain websites. For example, a company might block social media sites for its employees.
 - Caching:
     - Proxy servers can store copies of frequently accessed resources (like web pages or files), making subsequent requests faster since the data can be retrieved from the proxy’s cache instead of the actual server.
+- Finally:
+    - A proxy server acts as an intermediary between a client (such as a user's computer or browser) and the internet. When a client makes a request to access a website or other online resource, the request can first go through a proxy server, which then forwards the request to the destination. The response from the destination is also passed back to the client via the proxy server.

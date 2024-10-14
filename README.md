@@ -525,6 +525,11 @@ php artisan serve
 - Both of them are used to test your logic in isolation.
 
 ## Proxy Servers
-- Anonymity and Geolocation Bypass
+- Anonymity and Geolocation Bypass:
     - Proxy servers can hide the client's actual IP address, making it appear as though the request is coming from the proxy server rather than the client. This helps protect the user's identity and location.
     - Proxies can allow users to bypass geographic restrictions by making it seem as though their requests are coming from a different location.
+- Security and Content Filtering:
+    - Proxies can act as a firewall or filtering system, blocking malicious traffic and preventing access to certain websites. This is often used in corporate environments for network security.
+    - Organizations use proxy servers to restrict access to certain websites. For example, a company might block social media sites for its employees.
+- Caching:
+    - Proxy servers can store copies of frequently accessed resources (like web pages or files), making subsequent requests faster since the data can be retrieved from the proxy’s cache instead of the actual server.

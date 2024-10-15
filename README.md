@@ -39,7 +39,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Http Directory](#http-directory)
 - [Differences Between Mocks and Stubs](#differences-between-mocks-and-stubs)
 - [Proxy Servers](#proxy-servers)
-- [psr-7](#psr-7)
+- [Psr-7](#psr-7)
 
 ## Composer
 1. Creating a new project:
@@ -537,11 +537,11 @@ php artisan serve
 - Finally:
     - A proxy server acts as an intermediary between a client (such as a user's computer or browser) and the internet. When a client makes a request to access a website or other online resource, the request can first go through a proxy server, which then forwards the request to the destination. The response from the destination is also passed back to the client via the proxy server.
 
-## psr-7
-- interface MessageInterface
-- interface RequestInterface extends MessageInterface
-- interface ResponseInterface extends MessageInterface
-- interface ServerRequestInterface extends RequestInterface
-- interface UriInterface
-- interface StreamInterface
-- interface UploadedFileInterface
+## Psr-7
+- interface `MessageInterface`
+- interface `RequestInterface` extends `MessageInterface`
+- interface `ResponseInterface` extends `MessageInterface`
+- interface `ServerRequestInterface` extends `RequestInterface`
+- interface `UriInterface`
+- interface `StreamInterface`
+- interface `UploadedFileInterface`

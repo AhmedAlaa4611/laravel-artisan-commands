@@ -40,6 +40,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Differences Between Mocks and Stubs](#differences-between-mocks-and-stubs)
 - [Proxy Servers](#proxy-servers)
 - [Psr-7](#psr-7)
+- [TLS](#tls)
 
 ## Composer
 1. Creating a new project:
@@ -545,3 +546,9 @@ php artisan serve
 - interface `UriInterface`
 - interface `StreamInterface`
 - interface `UploadedFileInterface`
+
+## TLS
+- **TLS:** Transport Layer Security.
+- **Security:** Encrypts data to protect against hackers.
+- **Trust:** Increases user trust with visual cues like the padlock symbol and HTTPS in the browser.
+- **SEO:** Google gives ranking boosts to websites that use HTTPS over HTTP.

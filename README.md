@@ -560,5 +560,5 @@ php artisan serve
     - RFC 791: Defines the Internet Protocol (IP).
     - RFC 6269: Defines Issues with IP Address Sharing.
     - RFC 2616: Defines HTTP/1.1.
-    - RFC 7230: Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing
+    - RFC 7230: Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing.
     - RFC 5246: Defines Transport Layer Security (TLS).

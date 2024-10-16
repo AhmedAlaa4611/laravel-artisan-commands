@@ -541,7 +541,7 @@ php artisan serve
     - A proxy server acts as an intermediary between a client (such as a user's computer or browser) and the internet. When a client makes a request to access a website or other online resource, the request can first go through a proxy server, which then forwards the request to the destination. The response from the destination is also passed back to the client via the proxy server.
 
 ## Psr
-- PHP Standards Recommendations.
+- PHP Standard Recommendations.
 - **PSR-1:** Basic Coding Standard.
 - **PSR-2:** Coding Style Guide.
 - **PSR-4:** Autoloading.

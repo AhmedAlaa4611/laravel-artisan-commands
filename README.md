@@ -507,6 +507,7 @@ php artisan serve
 - A public key `asymmetric key` cryptosystem uses a public key to encrypt and a private key to decrypt.
 - Identical plaintexts yield different ciphertexts.
 - AES-256-CBC: Advanced Encryption Standard 256 Cipher Block Chaining.
+- Requests for Comments (RFC) published by the Internet Engineering Task Force (IETF).
 
 ## Differences Between Composer Files
 1. composer.json:

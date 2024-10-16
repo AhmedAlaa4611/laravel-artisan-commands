@@ -41,6 +41,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Proxy Servers](#proxy-servers)
 - [Psr-7](#psr-7)
 - [TLS](#tls)
+- [RFC vs IETF](#rfc-vs-ietf)
 
 ## Composer
 1. Creating a new project:
@@ -507,7 +508,6 @@ php artisan serve
 - A public key `asymmetric key` cryptosystem uses a public key to encrypt and a private key to decrypt.
 - Identical plaintexts yield different ciphertexts.
 - AES-256-CBC: Advanced Encryption Standard 256 Cipher Block Chaining.
-- [Requests for Comments (RFC)](https://www.rfc-editor.org/rfc) published by the Internet Engineering Task Force (IETF).
 
 ## Differences Between Composer Files
 1. composer.json:
@@ -553,3 +553,11 @@ php artisan serve
 - **Security:** Encrypts data to protect against hackers.
 - **Trust:** Increases user trust with visual cues like the padlock symbol and HTTPS in the browser.
 - **SEO:** Google gives ranking boosts to websites that use HTTPS over HTTP.
+
+## RFC vs IETF
+- [Requests for Comments](https://www.rfc-editor.org/rfc) published by the Internet Engineering Task Force.
+- Notable RFCs:
+    - RFC 791: Defines the Internet Protocol (IP).
+    - RFC 2616: Defines HTTP/1.1.
+    - RFC 5246: Defines Transport Layer Security (TLS).
+    - RFC 6269: Defines Issues with IP Address Sharing.

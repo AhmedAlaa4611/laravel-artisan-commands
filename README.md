@@ -39,6 +39,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Http Directory](#http-directory)
 - [Differences Between Mocks and Stubs](#differences-between-mocks-and-stubs)
 - [Proxy Servers](#proxy-servers)
+- [Psr](#psr)
 - [Psr-7](#psr-7)
 - [TLS](#tls)
 - [RFC vs IETF](#rfc-vs-ietf)
@@ -539,6 +540,12 @@ php artisan serve
 - Finally:
     - A proxy server acts as an intermediary between a client (such as a user's computer or browser) and the internet. When a client makes a request to access a website or other online resource, the request can first go through a proxy server, which then forwards the request to the destination. The response from the destination is also passed back to the client via the proxy server.
 
+## Psr
+- **PSR-1:** Basic Coding Standard.
+- **PSR-2:** Coding Style Guide.
+- **PSR-4:** Autoloading.
+- **PSR-7:** HTTP Interface.
+
 ## Psr-7
 - interface `MessageInterface`
 - interface `RequestInterface` extends `MessageInterface`
@@ -557,6 +564,7 @@ php artisan serve
 ## RFC vs IETF
 - [Requests for Comments](https://www.rfc-editor.org/rfc) published by the Internet Engineering Task Force.
 - Notable RFCs:
+    - RFC 7239: Forwarded HTTP Extension.
     - RFC 791: Defines the Internet Protocol (IP).
     - RFC 6269: Defines Issues with IP Address Sharing.
     - RFC 2616: Defines HTTP/1.1.

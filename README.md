@@ -43,7 +43,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Psr-7](#psr-7)
 - [TLS](#tls)
 - [RFC vs IETF](#rfc-vs-ietf)
-- [PHP's output buffering functions](php's-output-buffering-functions)
+- [PHP's output buffering functions](php-output-buffering-functions)
 
 ## Composer
 1. Creating a new project:

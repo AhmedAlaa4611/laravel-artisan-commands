@@ -43,7 +43,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Psr-7](#psr-7)
 - [TLS](#tls)
 - [RFC vs IETF](#rfc-vs-ietf)
-- [PHP's output buffering functions](php-output-buffering-functions)
+- [PHP output buffering functions](php-output-buffering-functions)
 
 ## Composer
 1. Creating a new project:
@@ -573,7 +573,7 @@ php artisan serve
     - RFC 7230: Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing.
     - RFC 5246: Defines Transport Layer Security (TLS).
 
-## PHP's output buffering functions
+## PHP output buffering functions
 - `ob_start()` Starts output buffering.
 - `ob_flush()` Sends the current buffer contents to the browser but keeps buffering enabled.
 - `ob_end_flush()` Sends the contents of the output buffer to the browser and turns off output buffering.

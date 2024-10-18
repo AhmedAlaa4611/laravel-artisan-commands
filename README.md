@@ -590,3 +590,4 @@ php artisan serve
     - Client-Side Rendering.
     - Single Page Applications.
     - Real-Time Updates.
+- They can be used together in hybrid applications.

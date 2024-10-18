@@ -583,8 +583,10 @@ php artisan serve
 
 ## Blade vs React
 - Blade:
-    - Server-side rendering.
+    - Server-Side Rendering.
     - Multi-Page Applications.
+    - Fast Initial Page Loading.
 - React:
-    - Client-side rendering.
+    - Client-Side Rendering.
     - Single Page Applications.
+    - Real-Time Updates.

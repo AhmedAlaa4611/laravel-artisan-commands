@@ -44,6 +44,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [TLS](#tls)
 - [RFC vs IETF](#rfc-vs-ietf)
 - [PHP output buffering functions](#php-output-buffering-functions)
+- [Blade vs React](#blade-vs-react)
 
 ## Composer
 1. Creating a new project:
@@ -579,3 +580,11 @@ php artisan serve
 - `ob_end_flush()` Sends the contents of the output buffer to the browser and turns off output buffering.
 - `ob_end_clean()` Clears (discards) the contents of the output buffer and turns off output buffering. No output is sent.
 - `ob_get_contents()` Returns the current contents of the output buffer as a string, allowing you to inspect or manipulate it before it is sent.
+
+## Blade vs React
+- Blade:
+    - Server-side rendering.
+    - Multi-Page Applications.
+- React:
+    - Client-side rendering.
+    - Single Page Applications.

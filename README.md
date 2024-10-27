@@ -499,6 +499,7 @@ php artisan serve
 - Termwind allows you to build command-line interfaces (CLI) using web-like styling.
 - Bootstrap is a self-starting process.
 - Redis is an in-memory data structure used for Caching, Session Store, and Queue Management.
+- Laravel Pail is to interact with application logs directly from the command line.
 - Forge, Vapor, and Envoyer are for deployment, but they require a subscription to use.
 - Laracon stands for Laravel conference.
 - SSH: Secure Shell.

@@ -594,6 +594,6 @@ php artisan serve
     - Fast Initial Page Loading.
 - React:
     - Client-Side Rendering.
-    - Single Page Applications.
+    - Single Page Applications `for state handling`.
     - Real-Time Updates.
 - They can be used together in hybrid applications.

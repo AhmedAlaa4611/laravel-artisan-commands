@@ -592,8 +592,10 @@ php artisan serve
     - Server-Side Rendering.
     - Multi-Page Applications.
     - Fast Initial Page Loading.
+    - SEO is a primary concern.
 - React:
     - Client-Side Rendering.
     - Single Page Applications `for state handling`.
     - Real-Time Updates.
+    - SEO is not a primary concern.
 - They can be used together in hybrid applications.

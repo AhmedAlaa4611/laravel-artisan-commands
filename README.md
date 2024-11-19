@@ -561,8 +561,8 @@ php artisan serve
 - interface `UploadedFileInterface`
 
 ## ECMAScript vs PSR
-- ECMAScript: language specification -updates- upon which JavaScript based.
-- PSR discusses PHP coding style, framework interoperability, or standardized practices in PHP development.
+- ECMAScript: language specification `updates` upon which JavaScript based.
+- PSR: discusses PHP coding style, framework interoperability, or standardized practices in PHP development.
 
 ## TLS
 - **TLS:** Transport Layer Security.

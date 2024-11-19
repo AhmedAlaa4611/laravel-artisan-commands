@@ -41,6 +41,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Proxy Servers](#proxy-servers)
 - [Psr](#psr)
 - [Psr-7](#psr-7)
+- [ECMAScript vs PSR](#ecmascript-vs-psr)
 - [TLS](#tls)
 - [RFC vs IETF](#rfc-vs-ietf)
 - [PHP output buffering functions](#php-output-buffering-functions)
@@ -558,6 +559,10 @@ php artisan serve
 - interface `UriInterface`
 - interface `StreamInterface`
 - interface `UploadedFileInterface`
+
+## ECMAScript vs PSR
+- ECMAScript: language specification -updates- upon which JavaScript based.
+- PSR discusses PHP coding style, framework interoperability, or standardized practices in PHP development.
 
 ## TLS
 - **TLS:** Transport Layer Security.

@@ -565,8 +565,8 @@ php artisan serve
 - PSR: discusses PHP coding style, framework interoperability, or standardized practices in PHP development.
 
 ## TLS
-- **TLS:** Transport Layer Security.
-- **Security:** Encrypts data to protect against hackers.
+- **TLS Certificate:** Transport Layer Security Certificate.
+- **Security:** Encrypts data `such as passwords, credit card numbers, and personal information` to protect against hackers.
 - **Trust:** Increases user trust with visual cues like the padlock symbol and HTTPS in the browser.
 - **SEO:** Google gives ranking boosts to websites that use HTTPS over HTTP.
 

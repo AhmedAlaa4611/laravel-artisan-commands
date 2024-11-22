@@ -610,4 +610,4 @@ php artisan serve
 - Blade Changes:
     - When you edit a Blade file `laravel-vite-plugin` detects the change, since Blade files aren't directly part of the HMR system, the plugin triggers a full browser refresh to reflect the updated Blade content.
 - CSS/JS Changes:
-    - When you edit a CSS or JavaScript file listed in the input array of `vite.config.js`, Vite’s HMR updates only those assets in the browser without reloading the entire page.
+    - When you edit a CSS or JavaScript file listed in the input array of `vite.config.js`, Vite’s HMR updates only those assets in the browser without reloading the entire page and losing the state of the application.

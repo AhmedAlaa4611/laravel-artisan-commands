@@ -46,6 +46,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [RFC vs IETF](#rfc-vs-ietf)
 - [PHP output buffering functions](#php-output-buffering-functions)
 - [Blade vs React](#blade-vs-react)
+- [WSL1 vs WSL2](#wsl1-vs-wsl2)
 
 ## Composer
 1. Creating a new project:
@@ -599,3 +600,7 @@ php artisan serve
     - Real-Time Updates.
     - SEO is not a primary concern.
 - They can be used together in hybrid applications.
+
+## WSL1 vs WSL2
+- WSL1: Uses a compatibility layer to translate Linux system calls into Windows system calls. This layer enables Linux binaries to run on Windows without requiring a Linux kernel.
+- WSL2: Runs a real Linux kernel inside a lightweight virtual machine (VM). This is closer to how a native Linux environment operates.

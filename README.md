@@ -47,6 +47,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [PHP output buffering functions](#php-output-buffering-functions)
 - [Blade vs React](#blade-vs-react)
 - [WSL1 vs WSL2](#wsl1-vs-wsl2)
+- [Vite Development Process](#vite-development-process)
 
 ## Composer
 1. Creating a new project:
@@ -604,3 +605,9 @@ php artisan serve
 ## WSL1 vs WSL2
 - WSL1: Uses a compatibility layer to translate Linux system calls into Windows system calls. This layer enables Linux binaries to run on Windows without requiring a Linux kernel.
 - WSL2: Runs a real Linux kernel inside a lightweight virtual machine (VM). This is closer to how a native Linux environment operates.
+
+## Vite Development Process
+- Blade Changes:
+    - When you edit a Blade file, the laravel-vite-plugin detects the change, since Blade files aren't directly part of the HMR system, the plugin triggers a full browser refresh to reflect the updated Blade content.
+- CSS/JS Changes:
+    - When you edit a CSS or JavaScript file listed in the input array of vite.config.js, Vite’s HMR updates only those assets in the browser without reloading the entire page.

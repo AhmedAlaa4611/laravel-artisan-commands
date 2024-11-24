@@ -494,16 +494,17 @@ php artisan serve
 - Breeze and Jetstream are Laravel packages used for authentication.
 - Choose Breeze if you need simple auth scaffolding, and Jetstream if you want a robust application with features like team management and two-factor authentication.
 - Laravel Shift is used to upgrade Laravel applications.
+- Forge, Vapor, and Envoyer are for deployment, but they require a subscription to use.
 - Laravel Cashier, Spark, and Stripe are used to handle subscriptions and billings.
 - Laravel Sail is a lightweight command-line interface for Laravel that provides a simple and convenient way to set up a local development environment using Docker, Removing the "it works on my machine" problem.
 - Passport, Socialite, OAuth2, and Sanctum are used to build APIs.
 - Laravel Telescope, Pulse, and Debugbar are powerful tools for debugging and monitoring Laravel applications.
 - Laravel Dusk is a browser automation tool for testing.
 - Termwind allows you to build command-line interfaces (CLI) using web-like styling.
-- Bootstrap is a self-starting process.
 - Redis is an in-memory data structure used for Caching, Session Store, and Queue Management.
 - Laravel Pail is to interact with application logs directly from the command line.
-- Forge, Vapor, and Envoyer are for deployment, but they require a subscription to use.
+- Ziggy is a Laravel package that provides an easy way to use Laravel's named routes in JavaScript. It generates a JavaScript object containing all the named routes defined in your Laravel application.
+- Bootstrap is a self-starting process.
 - Laracon stands for Laravel conference.
 - SSH: Secure Shell.
 - SSL: Secure Sockets Layer.

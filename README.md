@@ -48,6 +48,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Blade vs React](#blade-vs-react)
 - [WSL1 vs WSL2](#wsl1-vs-wsl2)
 - [Vite Development Process](#vite-development-process)
+- [Database Optimization](#database-optimization)
 
 ## Composer
 1. Creating a new project:
@@ -612,3 +613,14 @@ php artisan serve
     - When you edit a Blade file `laravel-vite-plugin` detects the change, since Blade files aren't directly part of the HMR system, the plugin triggers a full browser refresh to reflect the updated Blade content.
 - CSS/JS Changes:
     - When you edit a CSS or JavaScript file listed in the input array of `vite.config.js`, Vite’s HMR updates only those assets in the browser without reloading the entire page and losing the state of the application.
+
+## Database Optimization
+- Indexing
+- Query Optimization
+- Normalization
+- Caching
+- Connection Pooling
+- Efficient Data Types
+- Remove Unused Data from Frequently Accessed Tables
+- Monitoring and Performance Tuning `slow query log`
+- Concurrency Management `how multiple users or processes interact with the database`

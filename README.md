@@ -610,12 +610,12 @@ php artisan serve
 - WSL2: Runs a real Linux kernel inside a lightweight virtual machine (VM). This is closer to how a native Linux environment operates.
 
 ## Index vs Artisan Files
-- index.php:
+- **index.php:**
     - Located in the public directory.
     - Handles HTTP requests for web traffic.
     - Outputs responses like HTML/JSON to users via the browser.
     - Triggered when accessing the app through a web server (e.g., Apache/Nginx).
-- artisan
+- **artisan:**
     - Located in the root directory.
     - Handles CLI commands for tasks like migrations, scaffolding, and queue management.
     - Outputs text to the terminal.

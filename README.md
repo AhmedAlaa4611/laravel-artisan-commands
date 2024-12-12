@@ -47,6 +47,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [PHP output buffering functions](#php-output-buffering-functions)
 - [Blade vs React](#blade-vs-react)
 - [WSL1 vs WSL2](#wsl1-vs-wsl2)
+- [Index vs Artisan Files](#index-vs-artisan-files)
 - [Vite Development Process](#vite-development-process)
 - [Database Optimization](#database-optimization)
 
@@ -607,6 +608,18 @@ php artisan serve
 ## WSL1 vs WSL2
 - WSL1: Uses a compatibility layer to translate Linux system calls into Windows system calls. This layer enables Linux binaries to run on Windows without requiring a Linux kernel.
 - WSL2: Runs a real Linux kernel inside a lightweight virtual machine (VM). This is closer to how a native Linux environment operates.
+
+## Index vs Artisan Files
+- index.php:
+    - Located in the public directory.
+    - Handles HTTP requests for web traffic.
+    - Outputs responses like HTML/JSON to users via the browser.
+    - Triggered when accessing the app through a web server (e.g., Apache/Nginx).
+- artisan
+    - Located in the root directory.
+    - Handles CLI commands for tasks like migrations, scaffolding, and queue management.
+    - Outputs text to the terminal.
+    - Triggered when running commands in the terminal (php artisan).
 
 ## Vite Development Process
 - Blade Changes:

@@ -80,6 +80,10 @@ composer self-update
 ```sh
 composer dump-autoload
 ```
+8. Version:
+```sh
+composer --version
+```
 
 ## Artisan
 - Some artisan commands:

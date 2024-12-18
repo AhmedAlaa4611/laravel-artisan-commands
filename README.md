@@ -138,6 +138,10 @@ php artisan migrate:fresh --seed
 ```sh
 php artisan migrate:status
 ```
+7. To dump your migrations to a raw sql:
+```sh
+php artisan schema:dump
+```
 
 ## Factory
 1. To create a factory execute the following artisan command:

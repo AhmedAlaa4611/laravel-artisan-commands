@@ -99,6 +99,9 @@ php artisan --version
 ```sh
 php artisan about
 ```
+```sh
+php artisan about --only=cache
+```
 
 ## Serve
 1. Booting up a server:

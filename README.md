@@ -340,7 +340,7 @@ php artisan test
 ```
 3. To run a specific test class:
 ```sh
-php artisan test --filter YouTubeManagerTest
+php artisan test --filter=YouTubeManagerTest
 ```
 4. Some arguments that can be passed to the Artisan test command:
 ```sh

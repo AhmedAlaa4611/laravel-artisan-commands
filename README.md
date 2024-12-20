@@ -652,8 +652,8 @@ php artisan serve
 
 ## Illuminate Database Eloquent Attributes
 - **CollectedBy:** Specify a custom collection.
-    - Target: Model Class.
+    - Target: Model class.
 - **ObservedBy:** Specify an observer.
-    - Target: Model Class, repeatable.
+    - Target: Model class, Repeatable.
 - **ScopedBy:** Specify a query scope.
-    - Target: Model Class, repeatable.
+    - Target: Model class, Repeatable.

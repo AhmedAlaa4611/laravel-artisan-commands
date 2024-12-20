@@ -50,6 +50,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Index vs Artisan Files](#index-vs-artisan-files)
 - [Vite Development Process](#vite-development-process)
 - [Database Optimization](#database-optimization)
+- [Illuminate Database Eloquent Attributes](#illuminate-database-eloquent-attributes)
 
 ## Composer
 1. Creating a new project:
@@ -648,3 +649,11 @@ php artisan serve
 - Remove Unused Data from Frequently Accessed Tables
 - Monitoring and Performance Tuning `slow query log`
 - Concurrency Management `how multiple users or processes interact with the database`
+
+## Illuminate Database Eloquent Attributes
+- **CollectedBy:** Specify a custom collection.
+    - Target: Model Class.
+- **ObservedBy:** Specify an observer.
+    - Target: Model Class, repeatable.
+- **ScopedBy:** Specify a query scope.
+    - Target: Model Class, repeatable.

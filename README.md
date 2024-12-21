@@ -51,6 +51,7 @@ Comprehensive documentation on Laravel artisan commands.
 - [Vite Development Process](#vite-development-process)
 - [Database Optimization](#database-optimization)
 - [Illuminate Database Eloquent Attributes](#illuminate-database-eloquent-attributes)
+- [Search Notes](#search-notes)
 
 ## Composer
 1. Creating a new project:
@@ -657,3 +658,8 @@ php artisan serve
     - Target: Model class, Repeatable.
 - **ScopedBy:** Specify a query scope.
     - Target: Model class, Repeatable.
+
+## Search Notes
+- `Elasticsearch`, `Algolia`, and `Meilisearch` are search engines (search-as-a-service platforms) These search engines are optimized for speed and can handle very large amounts of data (millions or even billions of records) without significant performance degradation. They use indexing techniques to make searches extremely fast.
+- `Fuzzy Matching` and `Typo Tolerance` allow searches to find results even if there are slight misspellings or variations.
+- `Faceting` is the count of available options.

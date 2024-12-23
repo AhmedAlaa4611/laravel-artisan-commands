@@ -222,15 +222,19 @@ php artisan make:controller FirstController --resource --model=Post --requests
 ```sh
 php artisan route:list
 ```
-2. List all registered routes without vendor ones:
+2. List all registered routes by definition:
+```sh
+php artisan route:list --sort=definition
+```
+3. List all registered routes without vendor ones:
 ```sh
 php artisan route:list --except-vendor
 ```
-3. To generate a route cache:
+4. To generate a route cache:
 ```sh
 php artisan route:cache
 ```
-4. Remove the route cache file:
+5. Remove the route cache file:
 ```sh
 php artisan route:clear
 ```

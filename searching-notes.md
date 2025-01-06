@@ -37,7 +37,7 @@
 - Laravel Telescope, Pulse, and Debugbar are powerful tools for debugging and monitoring Laravel applications.
 - Laravel Dusk is an automation tool for browser testing.
 - Termwind allows you to build command-line interfaces (CLI) using web-like styling.
-- Redis is an in-memory data structure used for `Caching`, `Session Store`, and `Queue Management`.
+- Redis and Memcached are an in-memory data structure used for `Caching`, `Session Store`, and `Queue Management`.
 - Laravel Pail is to interact with application logs directly from the command line.
 > It requires the `pcntl` extension witch is not available on Windows.
 - Ziggy is a Laravel package that provides an easy way to use Laravel's named routes in JavaScript. It generates a JavaScript object containing all the named routes defined in your Laravel application.

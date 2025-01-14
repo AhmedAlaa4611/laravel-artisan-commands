@@ -415,6 +415,9 @@ https://benjamincrozat.com
 https://rocketee.rs
 ```
 ```sh
+https://larajobs.com
+```
+```sh
 https://www.php.net
 ```
 > Developer Mozilla:

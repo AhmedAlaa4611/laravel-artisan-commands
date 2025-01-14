@@ -46,6 +46,7 @@
 - SSH: Secure Shell.
 - SSL: Secure Sockets Layer.
 - Inertia is an adapter for your frontend JavaScript frameworks.
+- `Tailwind` is a `Postcss` plugin, `Vite` automatically apply `postcss.config.js` file.
 
 ## Differences Between Composer Files
 1. composer.json:

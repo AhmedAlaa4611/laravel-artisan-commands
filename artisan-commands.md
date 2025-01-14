@@ -391,13 +391,13 @@ npm run dev
 https://laravel.com/docs/11.x
 ```
 ```sh
-https://livewire.laravel.com
-```
-```sh
 https://bootcamp.laravel.com
 ```
 ```sh
-https://laravel-notification-channels.com/telegram
+https://livewire.laravel.com
+```
+```sh
+https://laravel-notification-channels.com
 ```
 ```sh
 https://laravel-news.com
@@ -405,6 +405,19 @@ https://laravel-news.com
 ```sh
 https://blog.laravel.com
 ```
+```sh
+https://laraveldaily.com
+```
+```sh
+https://benjamincrozat.com
+```
+```sh
+https://rocketee.rs
+```
+```sh
+https://www.php.net
+```
+> Developer Mozilla:
 ```sh
 https://developer.mozilla.org/en-US/docs/Web/HTTP
 ```
@@ -417,11 +430,25 @@ https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API
 ```sh
 https://codelabs.developers.google.com/codelabs/webrtc-web/#0
 ```
+> Bootstrap:
 ```sh
 https://getbootstrap.com
 ```
 ```sh
+https://mdbootstrap.com
+```
+> Tailwind:
+```sh
 https://tailwindcss.com
+```
+```sh
+https://www.hyperui.dev
+```
+```sh
+https://flowbite.com
+```
+```sh
+https://tailblocks.cc
 ```
 ```sh
 https://daisyui.com
@@ -429,7 +456,7 @@ https://daisyui.com
 ```sh
 https://bladewindui.com
 ```
-> `tailwindcss.com` and `daisyui.com` are working together.
+> Laracasts:
 ```sh
 https://laracasts.com/series/whats-new-in-laravel-5
 ```
@@ -439,21 +466,49 @@ https://laracasts.com/series/laravel-8-from-scratch
 ```sh
 https://laracasts.com/series/fun-with-openai-and-laravel
 ```
-> Learn Laravel in 30 Days.
+> Learn Laravel in 30 Days:
 ```sh
 https://www.youtube.com/playlist?list=PL3VM-unCzF8hy47mt9-chowaHNjfkuEVz
 ```
+> coding2go:
 ```sh
 https://coding2go.com
 ```
 ```sh
 https://www.youtube.com/@coding2go
 ```
+> Packages:
 ```sh
 https://fakerphp.org
 ```
 ```sh
 https://phpunit.de/index.html
+```
+```sh
+https://carbon.nesbot.com/laravel
+```
+> Frontend:
+```sh
+https://devdocs.io/html
+```
+```sh
+https://devdocs.io/css
+```
+```sh
+https://devdocs.io/javascript
+```
+```sh
+https://git-scm.com/docs
+```
+```sh
+https://docs.github.com/en
+```
+```sh
+https://ahmad.space/my-cources
+```
+> See Also:
+```sh
+Vite, Postcss, jQuery or Alpine.js or Vue.js
 ```
 
 ## Threads

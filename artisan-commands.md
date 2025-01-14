@@ -394,7 +394,7 @@ https://laravel.com/docs/11.x
 https://livewire.laravel.com
 ```
 ```sh
-https://bootcamp.laravel.com/livewire/installation
+https://bootcamp.laravel.com
 ```
 ```sh
 https://laravel-notification-channels.com/telegram
@@ -407,6 +407,9 @@ https://blog.laravel.com
 ```
 ```sh
 https://developer.mozilla.org/en-US/docs/Web/HTTP
+```
+```sh
+https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
 ```
 ```sh
 https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API

@@ -55,7 +55,7 @@ composer outdated --all
 ```sh
 composer clear-cache
 ```
-6. Updates Composer itself:
+6. Updates composer itself:
 ```sh
 composer self-update
 ```

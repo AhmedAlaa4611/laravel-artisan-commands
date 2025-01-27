@@ -325,8 +325,13 @@ php artisan test --profile
 
 ## Static Analysis
 1. You can instruct Pint to fix code style issues:
+> If you are using `Terminal`
 ```sh
 ./vendor/bin/pint
+```
+> OR if you are using `CMD` you can use
+```sh
+vendor\bin\pint
 ```
 
 ## Key Generate

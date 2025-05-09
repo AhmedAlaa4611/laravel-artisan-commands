@@ -1,7 +1,8 @@
 ## Laravel Artisan Commands
 > Comprehensive :100: documentation on Laravel artisan commands :partying_face:.
 
-## Table of Contents
+### Table of Contents
+- [PHP](#php)
 - [Composer](#composer)
 - [Artisan](#artisan)
 - [Booting up The Application](#booting-up-the-application)
@@ -28,13 +29,36 @@
 - [Static Analysis](#static-analysis)
 - [Key Generate](#key-generate)
 - [Tinker](#tinker)
+- [Tail](#tail)
 - [Set Up](#set-up)
 - [Crud Generator](#crud-generator)
 - [Links](#links)
 - [Threads](#threads)
 - [Bat](#bat)
 
-## Composer
+### PHP
+To run a file script called `index.php` you can use:
+```sh
+php index.php
+```
+
+For booting up a server for your web application you can use:
+```sh
+php -S localhost:8000
+```
+
+To detect the syntax errors in a file script called  `index.php` use the PHP command line linter:
+```sh
+php -l index.php
+```
+> Note: This command detects syntax errors, not compilation errors. VS Code runs the PHP command-line linter on save to detect syntax errors. You can change this behavior from the `settings.json` file using the `php.validate.executablePath` and `php.validate.run` setting keys. By default, the `php.validate.executablePath` setting key is set to `null`, and it's recommended not to change it and instead use PHP globally via your system's environment variables.
+
+To list all available extensions you can use:
+```sh
+php -m
+```
+
+### Composer
 1. Creating a new project:
 ```sh
 composer create-project laravel/laravel app-name
@@ -67,8 +91,12 @@ composer dump-autoload
 ```sh
 composer --version
 ```
+9. To Confirm transitive dependency:
+```sh
+composer why thecodingmachine/safe
+```
 
-## Artisan
+### Artisan
 - Some artisan commands:
 ```sh
 php artisan
@@ -86,7 +114,7 @@ php artisan about
 php artisan about --only=cache
 ```
 
-## Booting up The Application
+### Booting up The Application
 1. Booting up a server:
 ```sh
 php artisan serve
@@ -96,7 +124,7 @@ php artisan serve
 php artisan serve --port=8080
 ```
 
-## Migration
+### Migration
 1. Creating database migration:
 ```sh
 php artisan make:migration create_posts_table
@@ -126,13 +154,13 @@ php artisan migrate:status
 php artisan schema:dump
 ```
 
-## Factory
+### Factory
 1. Creating database factory:
 ```sh
 php artisan make:factory PostFactory
 ```
 
-## Seeders
+### Seeders
 1. Creating database seeder:
 ```sh
 php artisan make:seeder FirstSeeder
@@ -142,13 +170,13 @@ php artisan make:seeder FirstSeeder
 php artisan db:seed
 ```
 
-## Database
+### Database
 1. To show the structure of a specific table.
 ```sh
 php artisan db:table users
 ```
 
-## Model
+### Model
 1. Creating the model:
 ```sh
 php artisan make:model Product
@@ -166,7 +194,7 @@ php artisan make:model UserProduct -mp
 php artisan make:model Post --all
 ```
 
-## View
+### View
 1. Clearing the cached views:
 ```sh
 php artisan view:clear
@@ -176,7 +204,7 @@ php artisan view:clear
 php artisan view:cache
 ```
 
-## Controller
+### Controller
 1. Creating an empty controller:
 ```sh
 php artisan make:controller FirstController
@@ -194,13 +222,13 @@ php artisan make:controller FirstController --resource --model=Post
 php artisan make:controller FirstController --resource --model=Post --requests
 ```
 
-## Middleware
+### Middleware
 1. Creating Middleware:
 ```sh
 php artisan make:middleware CheckPayment
 ```
 
-## Route
+### Route
 1. List all registered routes:
 ```sh
 php artisan route:list
@@ -222,26 +250,26 @@ php artisan route:cache
 php artisan route:clear
 ```
 
-## Policy
+### Policy
 1. Creating Policy:
 ```sh
 php artisan make:policy PostPolicy --model=Post
 ```
 
-## Component
+### Component
 1. Creating a component class:
 ```sh
 php artisan make:component FirstComponent
 ```
 > You will find the `FirstComponent` class in the `app\View\Components` directory and the `first-component.blade.php` file in the `resources\views\components` directory.
 
-## Rule
+### Rule
 1. Defining a new rule:
 ```sh
 php artisan make:rule FirstRule
 ```
 
-## Request
+### Request
 1. Defining a new request:
 ```sh
 php artisan make:request StoreTaskRequest
@@ -250,7 +278,7 @@ php artisan make:request StoreTaskRequest
 php artisan make:request UpdateTaskRequest
 ```
 
-## Command
+### Command
 1. To make a command in Laravel:
 ```sh
 php artisan make:command FirstCommand
@@ -260,27 +288,27 @@ php artisan make:command FirstCommand
 php artisan app:first-command
 ```
 
-## Schedule
+### Schedule
 1. Running the Scheduler Locally:
 ```sh
 php artisan schedule:work
 ```
 > This command will run in the foreground and invoke the scheduler until you terminate the command, so this will not work in production. instead, you need something called `Cron Jobs`.
 
-## Mail
+### Mail
 1. Creating a mail:
 ```sh
 php artisan make:mail FirstMail --markdown=emails.welcome
 ```
 > You will find the `FirstMail` class in the `app\Mail` directory and the `welcome.blade.php` file in the `resources\views\emails` directory.
 
-## Notification
+### Notification
 1. Creating a notification:
 ```sh
 php artisan make:notification FirstNotification
 ```
 
-## Events and Listeners
+### Events and Listeners
 1. Creating an event:
 ```sh
 php artisan make:event UserLoggedOut
@@ -290,7 +318,7 @@ php artisan make:event UserLoggedOut
 php artisan make:listener SetUserInactive --event=UserLoggedOut
 ```
 
-## Observer
+### Observer
 1. If you are listening for many events on a given model, you may use observers to group all of your listeners into a single class:
 ```sh
 php artisan make:observer UserObserver --model=User
@@ -300,7 +328,7 @@ php artisan make:observer UserObserver --model=User
 #[ObservedBy([UserObserver::class])]
 ```
 
-## Tests
+### Tests
 1. To create a new test case, use the `make:test` Artisan command:
 ```sh
 php artisan make:test UserTest
@@ -323,7 +351,7 @@ php artisan test --testsuite=Feature --stop-on-failure
 php artisan test --profile
 ```
 
-## Static Analysis
+### Static Analysis
 1. You can instruct Pint to fix code style issues:
 > If you are using `Terminal`
 ```sh
@@ -334,19 +362,42 @@ php artisan test --profile
 vendor\bin\pint
 ```
 
-## Key Generate
+### Key Generate
 1. Generating a new key on deployment:
 ```sh
 php artisan key:generate
 ```
 
-## Tinker
+### Tinker
 1. To execute Laravel code from CMD:
 ```sh
 php artisan tinker
 ```
 
-## Set Up
+### Tail
+In a Laravel project, you can use the `tail` command to view the latest logs in real time in your terminal.
+
+> For Linux/macOS
+```sh
+tail -f storage/logs/laravel.log
+```
+
+> If you want to filter logs by level, you can use the `grep` command
+```sh
+tail -f storage/logs/laravel.log | grep "INFO"
+```
+
+> For Windows
+```sh
+Get-Content storage/logs/laravel.log -Wait
+```
+
+> If you want to filter logs by level, you can use the `Select-String` command
+```sh
+Get-Content storage/logs/laravel.log -Wait | Select-String "error"
+```
+
+### Set Up
 > Set up a Laravel project that you've downloaded from GitHub:
 1. Install composer dependencies:
 ```sh
@@ -371,7 +422,7 @@ php artisan migrate
 php artisan serve
 ```
 
-## Crud Generator
+### Crud Generator
 > First create the migration table.
 1. Installing the `ibex` package.
 ```sh
@@ -391,9 +442,9 @@ npm run dev
 4. Booting up the application and use `URL` to request the page of creating the resource, display a list of it, and more.
 > There are several other packages for doing the same.
 
-## Links
+### Links
 ```sh
-https://laravel.com/docs/11.x
+https://laravel.com/docs/12.x
 ```
 ```sh
 https://bootcamp.laravel.com
@@ -401,6 +452,10 @@ https://bootcamp.laravel.com
 ```sh
 https://livewire.laravel.com
 ```
+```sh
+https://larajobs.com
+```
+> Articles:
 ```sh
 https://laravel-notification-channels.com
 ```
@@ -411,7 +466,13 @@ https://laravel-news.com
 https://blog.laravel.com
 ```
 ```sh
+https://packages.tools
+```
+```sh
 https://laraveldaily.com
+```
+```sh
+https://github.com/LaravelDaily/laravel-tips
 ```
 ```sh
 https://benjamincrozat.com
@@ -420,10 +481,54 @@ https://benjamincrozat.com
 https://rocketee.rs
 ```
 ```sh
-https://larajobs.com
+https://saasykit.com/blog
 ```
 ```sh
+https://laravelarticle.com
+```
+```sh
+https://serverpilot.io/blog
+```
+```sh
+https://securinglaravel.com
+```
+```sh
+https://masteringlaravel.io/daily
+```
+```sh
+https://tighten.com/insights
+```
+```sh
+https://inspector.dev
+```
+```sh
+https://backpackforlaravel.com/articles
+```
+```sh
+https://newinlaravel.com
+```
+```sh
+https://dev.to
+```
+> PHP
+```sh
 https://www.php.net
+```
+> Follow up for PHP releases:
+```sh
+https://laravel-news.com/php-8-4-0
+```
+```sh
+https://www.php.net/releases/8.4/en.php
+```
+```sh
+https://www.php.net/manual/en/migration84
+```
+```sh
+https://serverpilot.io/blog/php-84-is-available-on-all-servers
+```
+```sh
+https://stitcher.io/blog/new-in-php-84
 ```
 > Developer Mozilla:
 ```sh
@@ -516,10 +621,10 @@ https://ahmad.space/my-cources
 ```
 > See Also:
 ```sh
-Vite, Postcss, jQuery or Alpine.js or Vue.js
+Vite & Alpine.js | Vue.js
 ```
 
-## Threads
+### Threads
 1. Example code in cpp `uses threads` for booting up a server to the application and open your browser in a specified `IP address and port number`:
 
 ```cpp
@@ -547,7 +652,7 @@ int main()
 }
 ```
 
-## Bat
+### Bat
 1. Example code in bat `uses multiple CMD windows` for booting up a server to the application:
 ```bat
 @echo off
